@@ -1050,6 +1050,11 @@
 #define /*0x10C*/ oToadMessageRecentlyTalked OBJECT_FIELD_S32(0x21)
 #define /*0x110*/ oToadMessageState          OBJECT_FIELD_S32(0x22)
 
+/* Yoshi Message */
+#define /*0x109*/ oYoshiMessageDialogId       OBJECT_FIELD_U32(0x23)
+#define /*0x10D*/ oYoshiMessageRecentlyTalked OBJECT_FIELD_S32(0x24)
+#define /*0x111*/ oYoshiMessageState          OBJECT_FIELD_S32(0x25)
+
 /* Tox Box */
 #define /*0x1AC*/ oToxBoxMovementPattern OBJECT_FIELD_VPTR(0x49)
 #define /*0x1B0*/ oToxBoxMovementStep    OBJECT_FIELD_S32(0x4A)

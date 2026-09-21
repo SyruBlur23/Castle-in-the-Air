@@ -87,13 +87,13 @@ enum DialogBoxType {
 #define DEFAULT_DIALOG_BOX_ANGLE 90.0f
 #define DEFAULT_DIALOG_BOX_SCALE 19.0f
 
-u8 gDialogCharWidths[256] = { // HACKERSM64_DO: Is there a way to auto generate this?
-    7,  7,  7,  7,  7,  7,  7,  7,  7,  7,  6,  6,  6,  6,  6,  6,
-    6,  6,  5,  6,  6,  5,  8,  8,  6,  6,  6,  6,  6,  5,  6,  6,
-    8,  7,  6,  6,  6,  5,  5,  6,  5,  5,  6,  5,  4,  5,  5,  3,
-    7,  5,  5,  5,  6,  5,  5,  5,  5,  5,  7,  7,  5,  5,  4,  4,
-    8,  6,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-    8,  8,  8,  8,  7,  7,  6,  7,  7,  0,  0,  0,  0,  0,  0,  0,
+u8 gDialogCharWidths[256] = { // TODO: Is there a way to auto generate this?
+    8,  6,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
+    8,  8,  6,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
+    8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  7,  4,  7,  8,  4,
+    8,  8,  7,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  4,  5,
+    8,  8,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+    8,  8,  8,  8,  8,  8,  8,  8,  8,  0,  0,  0,  0,  0,  0,  0,
 #ifdef VERSION_EU
     6,  6,  6,  0,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0,  4,
     5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0,
@@ -101,7 +101,7 @@ u8 gDialogCharWidths[256] = { // HACKERSM64_DO: Is there a way to auto generate 
     0,  5,  5,  0,  0,  6,  6,  0,  0,  0,  0,  0,  0,  0,  5,  6,
     0,  4,  4,  0,  0,  5,  5,  0,  0,  0,  0,  0,  0,  0,  0,  0,
 #else
-    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  4,
+    0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  5,
     0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
     0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
     0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  5,  6,
@@ -741,7 +741,7 @@ void create_dialog_box_with_response(s16 dialog) {
 void reset_dialog_render_state(void) {
     level_set_transition(0, NULL);
 
-    gDialogBoxScale = 19.0f;
+    gDialogBoxScale = 15.0f;
     gDialogBoxOpenTimer = 90.0f;
     gDialogBoxState = DIALOG_STATE_OPENING;
     gDialogID = DIALOG_NONE;
@@ -769,12 +769,12 @@ void render_dialog_box_type(struct DialogEntry *dialog, s8 linesPerBox) {
                 create_dl_translation_matrix(MENU_MTX_NOPUSH, (65.0f - (65.0f / gDialogBoxScale)), ((40.0f / gDialogBoxScale) - 40), 0);
                 create_dl_scale_matrix(MENU_MTX_NOPUSH, (1.0f / gDialogBoxScale), (1.0f / gDialogBoxScale), 1.0f);
             }
-            gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 150);
+            gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 150);
             break;
     }
 
     create_dl_translation_matrix(MENU_MTX_PUSH, -7.0f, 5.0f, 0);
-    create_dl_scale_matrix(MENU_MTX_NOPUSH, 1.1f, (((f32) linesPerBox / 5.0f) + 0.1f), 1.0f);
+    create_dl_scale_matrix(MENU_MTX_NOPUSH, 1.8f, (((f32) linesPerBox / 5.0f) + 0.1f), 1.0f);
 
     gSPDisplayList(gDisplayListHead++, dl_draw_text_bg_box);
     gSPPopMatrix(gDisplayListHead++, G_MTX_MODELVIEW);
@@ -791,7 +791,7 @@ void change_and_flash_dialog_text_color_lines(s8 colorMode, s8 lineNum, u8 *cust
                 colorFade = (gSineTable[gDialogColorFadeTimer >> 4] * 50.0f) + 200.0f;
                 gDPSetEnvColor(gDisplayListHead++, colorFade, colorFade, colorFade, 255);
             } else {
-                gDPSetEnvColor(gDisplayListHead++, 200, 200, 200, 255);
+                gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
             }
         }
     } else {
@@ -803,7 +803,7 @@ void change_and_flash_dialog_text_color_lines(s8 colorMode, s8 lineNum, u8 *cust
                 }
                 break;
             case DIALOG_TYPE_ZOOM:
-                gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
+                gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
                 break;
         }
     }
@@ -1022,7 +1022,7 @@ void render_dialog_triangle_choice(void) {
     if (gDialogBoxType == DIALOG_TYPE_ROTATE) {
         gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
     } else {
-        gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
+        gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
     }
 
     gSPDisplayList(gDisplayListHead++, dl_draw_triangle);
@@ -1047,7 +1047,7 @@ void render_dialog_triangle_next(s8 linesPerBox) {
     if (gDialogBoxType == DIALOG_TYPE_ROTATE) { // White Text
         gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
     } else { // Black Text
-        gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 255);
+        gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, 255);
     }
 
     gSPDisplayList(gDisplayListHead++, dl_draw_triangle);
@@ -1058,7 +1058,7 @@ void handle_special_dialog_text(s16 dialogID) { // dialog ID tables, in order
     // King Bob-omb (Start), Whomp (Start), King Bob-omb (throw him out), Eyerock (Start), Wiggler (Start)
     s16 dialogBossStart[] = { DIALOG_017, DIALOG_114, DIALOG_128, DIALOG_117, DIALOG_150 };
     // Koopa the Quick (BoB), Koopa the Quick (THI), Penguin Race, Fat Penguin Race (120 stars)
-    s16 dialogRaceSound[] = { DIALOG_005, DIALOG_009, DIALOG_055, DIALOG_164             };
+    s16 dialogRaceSound[] = { DIALOG_166, DIALOG_167, DIALOG_168, DIALOG_169             };
     // Red Switch, Green Switch, Blue Switch, 100 coins star, Bowser Red Coin Star
     s16 dialogStarSound[] = { DIALOG_010, DIALOG_011, DIALOG_012, DIALOG_013, DIALOG_014 };
     // King Bob-omb (Start), Whomp (Defeated), King Bob-omb (Defeated, missing in JP), Eyerock (Defeated), Wiggler (Defeated)
@@ -1134,7 +1134,7 @@ s8  gDialogCameraAngleIndex = CAM_SELECTION_MARIO;
 s8  gDialogCourseActNum     =  1;
 
 #define DIAG_VAL1  16
-#define DIAG_VAL3 132 // US & EU
+#define DIAG_VAL3 240 // US & EU
 #define DIAG_VAL4   5
 #define DIAG_VAL2 240 // JP & US
 

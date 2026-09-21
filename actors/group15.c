@@ -23,3 +23,7 @@ UNUSED static const u64 binid_2 = 2;
 
 #include "boo_castle/model.inc.c"
 UNUSED static const u64 binid_3 = 3;
+
+#include "CLOCK_PENDULUM_SMALL/model.inc.c"
+#include "CLOCK_MINUTE_SMALL/model.inc.c"
+#include "CLOCK_HOUR_SMALL/model.inc.c"

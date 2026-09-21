@@ -25,3 +25,6 @@
 #include "white_particle/geo.inc.c"
 #include "wooden_signpost/geo.inc.c"
 #include "tree/geo.inc.c"
+
+#include "PM_SINGLE_DOOR/geo.inc.c"
+#include "PM_DOUBLE_DOOR/geo.inc.c"

@@ -1,0 +1,20 @@
+const MacroObject castle_courtyard_area_1_macro_objs[] = {
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_arrow, 90, 532, 328, -7872, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_line_horizontal, -90, -3462, 490, -7873, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_line_horizontal, 0, -5511, 327, -7509, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_line_horizontal, -90, -17559, -2599, 1960, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_line_horizontal, -90, -14965, -2340, 1960, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_line_horizontal, -90, -12384, -2207, 1960, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_line_horizontal, 0, 14268, -1736, -6118, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_coin_line_horizontal, 0, 14268, -2368, -11485, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, 0, -1040, 328, -6555, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, 0, 3900, -346, -7947, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, 0, -5517, 327, -5755, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, -90, -8281, -1933, -685, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, -90, -7289, -2185, -7555, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, -90, -14989, -2064, 16148, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, -90, -3856, 1051, 14803, 0x00000000),
+	MACRO_OBJECT_WITH_BEH_PARAM(macro_red_coin, -90, 19931, 122, 13609, 0x00000000),
+	MACRO_OBJECT_END(),
+};
+

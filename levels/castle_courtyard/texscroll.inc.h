@@ -1,0 +1,3 @@
+extern void scroll_castle_courtyard_dl_Fountain_Water_mesh_layer_5_vtx_0();
+extern void scroll_castle_courtyard_dl_Quiet_Courtyard_mesh_layer_5_vtx_2();
+extern void scroll_castle_courtyard();

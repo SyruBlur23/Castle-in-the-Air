@@ -8,7 +8,7 @@
  * Forces the camera mode to your choice (except when swimming or flying).
  * It does this by setting the area's camera->defMode to this mode.
  */
-#define FORCED_CAMERA_MODE        CAMERA_MODE_8_DIRECTIONS
+//#define FORCED_CAMERA_MODE        CAMERA_MODE_8_DIRECTIONS
 
 /**
  * Changes hardcoded camera mode reverting to instead use the area's default mode (defMode).
@@ -44,7 +44,7 @@
 /**
  * Enables Puppy Camera 2, a rewritten camera that can be freely configured and modified.
  */
-// #define PUPPYCAM
+#define PUPPYCAM
 
 /**
  * Note: Reonucam is available, but because we had no time to test it properly, it's included as a patch rather than being in the code by default.

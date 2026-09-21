@@ -12,7 +12,7 @@
 /**
  * Allows Mario to easily side flip when moving forwards at any speed.
  */
-// #define SIDE_FLIP_AT_LOW_SPEEDS
+#define SIDE_FLIP_AT_LOW_SPEEDS
 
 /**
  * Allows Mario to aim towards a new direction at the end of turning around,
@@ -26,7 +26,7 @@
  * - Precise turning control.
  * - Prevents falling from the edges.
  */
-// #define BETTER_HANGING
+#define BETTER_HANGING
 
 /**
  * Change the movement speed when hanging from a ceiling (the vanilla value is 4.0f, has no effect if BETTER_HANGING is enabled).
@@ -41,7 +41,7 @@
 /**
  * Disables fall damage.
  */
-#define NO_FALL_DAMAGE
+//#define NO_FALL_DAMAGE
 
 /**
  * Disables the scream that mario makes when falling off a great height (this is separate from actual fall damage).
@@ -101,12 +101,12 @@
 /**
  * Allows Mario to grab hangable ceilings from any state.
  */
-// #define HANGING_FIX
+#define HANGING_FIX
 
 /**
  * The maximum angle the player can wall kick, in degrees. 0..90. To allow 45 degree wall kicks, you must supply `46` to allow 45 and under.
  */
-#define WALL_KICK_DEGREES 45
+#define WALL_KICK_DEGREES 46
 
 /**
  * Makes Mario unable to ledge grab steep slopes to prevent false ledge grabs.
@@ -121,7 +121,7 @@
 /**
  * Disables BLJs and crushes SimpleFlips's dreams.
  */
-// #define DISABLE_BLJ
+#define DISABLE_BLJ
 
 /**
  * Re-enables upwarping when entering water. Forces you to only enter water from the top.
@@ -140,4 +140,4 @@
  * Inertia defines; allow Mario to preserve his momemtum when leaving moving platforms.
  */
 #define MARIO_INERTIA_UPWARD
-// #define MARIO_INERTIA_LATERAL
+#define MARIO_INERTIA_LATERAL

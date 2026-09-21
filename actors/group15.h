@@ -86,4 +86,10 @@ extern const Gfx toad_seg6_dl_06008A90[];
 extern const Gfx toad_seg6_dl_06008BD8[];
 extern const struct Animation *const toad_seg6_anims_0600FB58[];
 
+#include "CLOCK_PENDULUM_SMALL/geo_header.h"
+
+#include "CLOCK_MINUTE_SMALL/geo_header.h"
+
+#include "CLOCK_HOUR_SMALL/geo_header.h"
+
 #endif

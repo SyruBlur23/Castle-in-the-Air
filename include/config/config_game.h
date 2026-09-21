@@ -13,7 +13,7 @@
 /**
  * Enable lives and the lives counter. The number next to the define is the number of lives you start with.
  */
-// #define ENABLE_LIVES 4
+#define ENABLE_LIVES 4
 
 /**
  * This can be 0..127.
@@ -48,7 +48,7 @@
 /**
  * Uncomment this if you want global star IDs (useful for creating an open world hack ala MVC).
  */
-// #define GLOBAL_STAR_IDS
+#define GLOBAL_STAR_IDS
 
 /**
  * Number of possible unique model ID's (keep it higher than 256).
@@ -63,12 +63,12 @@
 /**
  * Makes signs and NPCs easier to talk to.
  */
-// #define EASIER_DIALOG_TRIGGER
+#define EASIER_DIALOG_TRIGGER
 
 /**
  * Shows an "A" when Mario is able to talk [requires EASIER_DIALOG_TRIGGER].
  */
-// #define DIALOG_INDICATOR
+#define DIALOG_INDICATOR
 
 /**
  * Include the English characters that were missing from US segment2 and the rumble pak texture if using rumble.

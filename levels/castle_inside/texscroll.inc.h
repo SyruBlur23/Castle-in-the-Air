@@ -1,0 +1,5 @@
+extern void scroll_castle_inside_dl_Paper_Mario_Lobby_mesh_layer_1_vtx_7();
+extern void scroll_castle_inside_dl_Paper_Mario_Lobby_mesh_layer_1_vtx_56();
+extern void scroll_castle_inside_dl_Upper_Paper_Mario_Lobby_mesh_layer_1_vtx_9();
+extern void scroll_castle_inside_dl_Upper_Paper_Mario_Lobby_mesh_layer_1_vtx_76();
+extern void scroll_castle_inside();

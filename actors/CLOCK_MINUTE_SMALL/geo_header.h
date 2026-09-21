@@ -1,0 +1,11 @@
+extern const GeoLayout CLOCK_MINUTE_SMALL_geo[];
+extern Vtx CLOCK_MINUTE_SMALL_Mesh_mesh_layer_1_vtx_cull[8];
+extern Vtx CLOCK_MINUTE_SMALL_Mesh_mesh_layer_1_vtx_0[16];
+extern Gfx CLOCK_MINUTE_SMALL_Mesh_mesh_layer_1_tri_0[];
+extern Vtx CLOCK_MINUTE_SMALL_Mesh_mesh_layer_1_vtx_1[51];
+extern Gfx CLOCK_MINUTE_SMALL_Mesh_mesh_layer_1_tri_1[];
+extern Gfx mat_CLOCK_MINUTE_SMALL_Red[];
+extern Gfx mat_revert_CLOCK_MINUTE_SMALL_Red[];
+extern Gfx mat_CLOCK_MINUTE_SMALL_Gold[];
+extern Gfx mat_revert_CLOCK_MINUTE_SMALL_Gold[];
+extern Gfx CLOCK_MINUTE_SMALL_Mesh_mesh_layer_1[];

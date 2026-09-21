@@ -1,0 +1,16 @@
+extern const GeoLayout CLOCK_PENDULUM_SMALL_geo[];
+extern u8 CLOCK_PENDULUM_SMALL_Pillar2_rgba16[];
+extern Vtx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1_vtx_cull[8];
+extern Vtx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1_vtx_0[8];
+extern Gfx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1_tri_0[];
+extern Vtx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1_vtx_1[92];
+extern Gfx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1_tri_1[];
+extern Vtx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1_vtx_2[8];
+extern Gfx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1_tri_2[];
+extern Gfx mat_CLOCK_PENDULUM_SMALL_Pillar[];
+extern Gfx mat_revert_CLOCK_PENDULUM_SMALL_Pillar[];
+extern Gfx mat_CLOCK_PENDULUM_SMALL_Gold[];
+extern Gfx mat_revert_CLOCK_PENDULUM_SMALL_Gold[];
+extern Gfx mat_CLOCK_PENDULUM_SMALL_Orange[];
+extern Gfx mat_revert_CLOCK_PENDULUM_SMALL_Orange[];
+extern Gfx CLOCK_PENDULUM_SMALL_Mesh_mesh_layer_1[];

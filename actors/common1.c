@@ -87,3 +87,6 @@ UNUSED static const u64 binid_21 = 21;
 
 #include "tree/model.inc.c"
 UNUSED static const u64 binid_22 = 22;
+
+#include "PM_SINGLE_DOOR/model.inc.c"
+#include "PM_DOUBLE_DOOR/model.inc.c"

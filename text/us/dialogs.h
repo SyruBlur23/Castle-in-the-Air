@@ -12,126 +12,122 @@
 #define SCRAM "scram--"
 #endif
 
-DEFINE_DIALOG(DIALOG_000, 1, 6, 30, 200, _("\
-Wow! You're smack in the\n\
-middle of the battlefield.\n\
-You'll find the Power\n\
-Stars that Bowser stole\n\
-inside the painting\n\
-worlds.\n\
-First, talk to the\n\
-Bob-omb Buddy. (Press [B]\n\
-to talk.) He'll certainly\n\
-help you out, and so will\n\
-his " COMRADES " in other\n\
-areas.\n\
-To read signs, stop, face\n\
-them and press [B]. Press [A]\n\
-or [B] to scroll ahead. You\n\
-can talk to some other\n\
-characters by facing them\n\
-and pressing [B]."))
+DEFINE_DIALOG(DIALOG_000, 1, 4, 45, 200, _("\
+Yahoo! After a long and arduous\n\
+journey, you've finally made it!\n\
+In the castle up ahead,\n\
+I'm waiting especially for you.\n\
+If you're up for an adventure,\n\
+please step forth and\n\
+pay me a visit.\n\
+-Princess Peach"))
 
-DEFINE_DIALOG(DIALOG_001, 1, 4, 95, 200, _("\
-Watch out! If you wander\n\
-around here, you're liable\n\
-to be " PLASTERED " by a\n\
-water bomb!\n\
-Those enemy Bob-ombs love\n\
-to fight, and they're\n\
-always finding ways to\n\
-attack.\n\
-This meadow has become\n\
-a battlefield ever since\n\
-the Big Bob-omb got his\n\
-paws on the Power Star.\n\
-Can you recover the Star\n\
-for us? Cross the bridge\n\
-and go left up the path\n\
-to find the Big Bob-omb.\n\
-Please come back to see\n\
-me after you've retrieved\n\
-the Power Star!"))
+DEFINE_DIALOG(DIALOG_001, 1, 4, 45, 200, _("\
+Daisy!!!!! It's really you!!\n\
+Welcome to our beautiful\n\
+floating castle!!\n\
+The Princess was waiting\n\
+for you out here,\n\
+but sadly she was abducted\n\
+by that evil King Bowser!\n\
+POINT OF ADVICE:\n\
+If you wish to participate\n\
+in the rescue mission,\n\
+I recommend that you explore\n\
+the front of the castle.\n\
+However, if the outside world\n\
+becomes too much to bear...\n\
+You can always kick back and\n\
+relax in the Basement Lounge\n\
+through the doors back here.\n\
+The entire Super Mario 64 Team\n\
+hopes you enjoy your stay\n\
+in our little world!"))
 
-DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
-Hey, you! It's dangerous\n\
-ahead, so listen up! Take\n\
-my advice.\n\
+DEFINE_DIALOG(DIALOG_002, 1, 5, 45, 200, _("\
+Nov. 2007 - Captain Toad\n\
+A friend to all and a true hero,\n\
+guided through this world\n\
+by the spirit of adventure.\n\
+Let his legacy inspire our\n\
+kingdom, let the Eternal Star\n\
+bless his weary soul, and may\n\
+his travels continue under\n\
+another sky."))
+
+DEFINE_DIALOG(DIALOG_003, 1, 4, 45, 200, _("\
+Welcome to my castle!\n\
+...I'm not home right now,\n\
+no thanks to King Bowser.\n\
 \n\
-Cross the two\n\
-bridges ahead, then\n\
-watch for falling\n\
-water bombs.\n\
-The Big Bob-omb at the\n\
-top of the mountain is\n\
-very powerful--don't let\n\
-him grab you!\n\
-We're Bob-omb Buddies,\n\
-and we're on your side.\n\
-You can talk to us\n\
-whenever you'd like to!"))
-
-DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Thank you, Mario! The Big\n\
-Bob-omb is nothing but a\n\
-big dud now! But the\n\
-battle for the castle has\n\
-just begun.\n\
-Other enemies are holding\n\
-the other Power Stars. If\n\
-you recover more Stars,\n\
-you can open new doors\n\
-that lead to new worlds!\n\
-My Bob-omb Buddies are\n\
-waiting for you. Be sure\n\
-to talk to them--they'll\n\
-set up cannons for you."))
-
-DEFINE_DIALOG(DIALOG_004, 1, 3, 95, 200, _("\
-We're peace-loving\n\
-Bob-ombs, so we don't use\n\
-cannons.\n\
-But if you'd like\n\
-to blast off, we don't\n\
-mind. Help yourself.\n\
-We'll prepare all of the\n\
-cannons in this course for\n\
-you to use. Bon Voyage!"))
-
-DEFINE_DIALOG(DIALOG_005, 1, 3, 30, 200, _("\
-Hey, Mario! Is it true\n\
-that you beat the Big\n\
-Bob-omb? Cool!\n\
-You must be strong. And\n\
-pretty fast. So, how fast\n\
-are you, anyway?\n\
-Fast enough to beat me...\n\
-Koopa the Quick? I don't\n\
-think so. Just try me.\n\
-How about a race to the\n\
-mountaintop, where the\n\
-Big Bob-omb was?\n\
-Whaddya say? When I say\n\
-『Go,』 let the race begin!\n\
+He and his minions have\n\
+taken over the castle... and\n\
+only you can stop him, Daisy!\n\
 \n\
-Ready....\n\
+The stars will empower you,\n\
+so please don't hesitate,\n\
+to explore my castle\n\
+and recover their lost power!\n\
 \n\
-//Go!////Don't Go"))
+\n\
+\n\
+\n\
+...Please."))
 
-DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-Hey!!! Don't try to " SCAM_ME
-"You've gotta run\n\
-the whole course.\n\
-Later. Look me up when\n\
-you want to race for\n\
-real."))
+DEFINE_DIALOG(DIALOG_004, 1, 5, 45, 200, _("\
+Whew, I'm so glad to finally\n\
+see a friendly face! I hid in\n\
+this bedroom when Bowser and\n\
+his troops barged in here,\n\
+looking for『His Angel』.\n\
+Say... you're Daisy, right?\n\
+My apologies for the sorry\n\
+greeting you've gotten after\n\
+traveling all this way.\n\
+\n\
+We really wanted to make this\n\
+experience special for you,\n\
+but I suppose life had...\n\
+other plans. Please, you have\n\
+to recover the Power Stars\n\
+and rescue our Princess!"))
 
-DEFINE_DIALOG(DIALOG_007, 1, 5, 30, 200, _("\
-Hufff...fff...pufff...\n\
-Whoa! You...really...are...\n\
-fast! A human blur!\n\
-Here you go--you've won\n\
-it, fair and square!"))
+DEFINE_DIALOG(DIALOG_005, 1, 3, 45, 200, _("\
+LIBRARY HOURS:\n\
+Mon. - Sat.     8 AM - 6 PM\n\
+Sun.            10 AM - 3 PM\n\
+Please be quiet in the\n\
+library and respect our\n\
+hardworking staff.\n\
+NOTE: Don't forget to return\n\
+any books you borrow!\n\
+-Princess Peach"))
+
+DEFINE_DIALOG(DIALOG_006, 1, 4, 45, 200, _("\
+No one ever comes in here,\n\
+so it's peaceful and quiet.\n\
+If you're looking for true\n\
+wisdom, though...\n\
+There IS a better library\n\
+out there somewhere.\n\
+It's WAY bigger and full of\n\
+all sorts of interesting\n\
+books, thanks to the wise\n\
+elder Koopa who built it!\n\
+...but that place is always\n\
+so busy and hectic,\n\
+so I find this library\n\
+much more comfortable."))
+
+DEFINE_DIALOG(DIALOG_007, 1, 4, 45, 200, _("\
+Y'know, not all Power Stars\n\
+are lost in the painted\n\
+worlds. You may find some\n\
+of them hidden inside the\n\
+castle walls! In fact, a\n\
+Power Star could be hiding\n\
+inside this very room\n\
+as we speak!"))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
 BEWARE OF CHAIN CHOMP\n\

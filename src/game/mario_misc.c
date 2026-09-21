@@ -48,6 +48,14 @@ enum ToadMessageStates {
     TOAD_MESSAGE_TALKING
 };
 
+enum YoshiMessageStates {
+    YOSHI_MESSAGE_FADED,
+    YOSHI_MESSAGE_OPAQUE,
+    YOSHI_MESSAGE_OPACIFYING,
+    YOSHI_MESSAGE_FADING,
+    YOSHI_MESSAGE_TALKING
+};
+
 enum UnlockDoorStarStates {
     UNLOCK_DOOR_STAR_RISING,
     UNLOCK_DOOR_STAR_WAITING,
@@ -158,6 +166,36 @@ static void toad_message_fading(void) {
     }
 }
 
+static void yoshi_message_opaque(void) {
+        o->oInteractionSubtype = INT_SUBTYPE_NPC;
+        if (o->oInteractStatus & INT_STATUS_INTERACTED) {
+            o->oInteractStatus = INT_STATUS_NONE;
+            o->oYoshiMessageState = YOSHI_MESSAGE_TALKING;
+    }
+}
+
+static void yoshi_message_talking(void) {
+    if (cur_obj_update_dialog_with_cutscene(MARIO_DIALOG_LOOK_UP,
+        DIALOG_FLAG_TURN_TO_MARIO, CUTSCENE_DIALOG, o->oYoshiMessageDialogId)) {
+        o->oYoshiMessageRecentlyTalked = TRUE;
+        o->oYoshiMessageState = YOSHI_MESSAGE_OPAQUE;
+        switch (o->oYoshiMessageDialogId) {
+            case TOAD_STAR_1_DIALOG:
+                o->oYoshiMessageDialogId = TOAD_STAR_1_DIALOG_AFTER;
+                bhv_spawn_star_no_level_exit(STAR_BP_ACT_1);
+                break;
+            case TOAD_STAR_2_DIALOG:
+                o->oYoshiMessageDialogId = TOAD_STAR_2_DIALOG_AFTER;
+                bhv_spawn_star_no_level_exit(STAR_BP_ACT_2);
+                break;
+            case TOAD_STAR_3_DIALOG:
+                o->oYoshiMessageDialogId = TOAD_STAR_3_DIALOG_AFTER;
+                bhv_spawn_star_no_level_exit(STAR_BP_ACT_3);
+                break;
+        }
+    }
+}
+
 void bhv_toad_message_loop(void) {
     if (o->header.gfx.node.flags & GRAPH_RENDER_ACTIVE) {
         o->oInteractionSubtype = INT_STATUS_NONE;
@@ -215,6 +253,60 @@ void bhv_toad_message_init(void) {
         o->oToadMessageDialogId = dialogId;
         o->oToadMessageRecentlyTalked = FALSE;
         o->oToadMessageState = TOAD_MESSAGE_FADED;
+        o->oOpacity = 81;
+    } else {
+        obj_mark_for_deletion(o);
+    }
+}
+
+void bhv_yoshi_message_loop(void) {
+    if (o->header.gfx.node.flags & GRAPH_RENDER_ACTIVE) {
+        o->oInteractionSubtype = INT_STATUS_NONE;
+        switch (o->oYoshiMessageState) {
+            case YOSHI_MESSAGE_OPAQUE:
+                yoshi_message_opaque();
+                break;
+            case YOSHI_MESSAGE_TALKING:
+                yoshi_message_talking();
+                break;
+        }
+    }
+}
+
+void bhv_yoshi_message_init(void) {
+    s32 saveFlags = save_file_get_flags();
+#ifdef UNLOCK_ALL
+    s32 starCount = 999;
+#else
+    s32 starCount = save_file_get_total_star_count(gCurrSaveFileNum - 1, COURSE_MIN - 1, COURSE_MAX - 1);
+#endif
+    s32 dialogId = GET_BPARAM1(o->oBehParams);
+    s32 enoughStars = TRUE;
+
+    switch (dialogId) {
+        case TOAD_STAR_1_DIALOG:
+            enoughStars = (starCount >= TOAD_STAR_1_REQUIREMENT);
+            if (saveFlags & SAVE_FLAG_COLLECTED_TOAD_STAR_1) {
+                dialogId = TOAD_STAR_1_DIALOG_AFTER;
+            }
+            break;
+        case TOAD_STAR_2_DIALOG:
+            enoughStars = (starCount >= TOAD_STAR_2_REQUIREMENT);
+            if (saveFlags & SAVE_FLAG_COLLECTED_TOAD_STAR_2) {
+                dialogId = TOAD_STAR_2_DIALOG_AFTER;
+            }
+            break;
+        case TOAD_STAR_3_DIALOG:
+            enoughStars = (starCount >= TOAD_STAR_3_REQUIREMENT);
+            if (saveFlags & SAVE_FLAG_COLLECTED_TOAD_STAR_3) {
+                dialogId = TOAD_STAR_3_DIALOG_AFTER;
+            }
+            break;
+    }
+    if (enoughStars) {
+        o->oYoshiMessageDialogId = dialogId;
+        o->oYoshiMessageRecentlyTalked = FALSE;
+        o->oYoshiMessageState = YOSHI_MESSAGE_OPAQUE;
         o->oOpacity = 81;
     } else {
         obj_mark_for_deletion(o);
