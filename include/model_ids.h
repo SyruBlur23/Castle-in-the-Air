@@ -67,6 +67,8 @@
 #define MODEL_WF_TOWER_SQUARE_PLATORM          0x2D        // wf_geo_000B10
 #define MODEL_WF_TOWER_SQUARE_PLATORM_UNUSED   0x2E        // wf_geo_000B38 - unused & duplicated
 #define MODEL_WF_TOWER_SQUARE_PLATORM_ELEVATOR 0x2F        // wf_geo_000B60 - elevator platorm
+#define MODEL_PM_SINGLE_DOOR                   0x30        // Paper Mario style single door
+#define MODEL_PM_DOUBLE_DOOR                   0x31        // Paper Mario style double door
 
 // Level model IDs
 
@@ -90,6 +92,9 @@
 #define MODEL_CASTLE_CLOCK_MINUTE_HAND         0x37        // castle_geo_001530
 #define MODEL_CASTLE_CLOCK_HOUR_HAND           0x38        // castle_geo_001548
 #define MODEL_CASTLE_CLOCK_PENDULUM            0x39        // castle_geo_001518
+#define MODEL_CLOCK_MINUTE_SMALL               0x3A        // small minute arm
+#define MODEL_CLOCK_HOUR_SMALL                 0x3B        // small hour arm
+#define MODEL_CLOCK_PENDULUM_SMALL             0x3C        // small pendulum
 
 // hmc
 #define MODEL_HMC_METAL_PLATFORM               0x36        // hmc_geo_0005A0

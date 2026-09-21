@@ -1,13 +1,12 @@
 extern const GeoLayout PM_DOUBLE_DOOR_geo[];
 extern u8 PM_DOUBLE_DOOR_Star_Door_ci4[];
 extern u8 PM_DOUBLE_DOOR_Star_Door_pal_rgba16[];
-extern Vtx PM_DOUBLE_DOOR_PM_STAR_DOOR_DOUBLE_geo_mesh_layer_1_vtx_cull[8];
-extern Vtx PM_DOUBLE_DOOR_PM_STAR_DOOR_DOUBLE_geo_mesh_layer_1_vtx_0[26];
-extern Gfx PM_DOUBLE_DOOR_PM_STAR_DOOR_DOUBLE_geo_mesh_layer_1_tri_0[];
-extern Vtx PM_DOUBLE_DOOR_PM_STAR_DOOR_DOUBLE_geo_mesh_layer_1_vtx_1[24];
-extern Gfx PM_DOUBLE_DOOR_PM_STAR_DOOR_DOUBLE_geo_mesh_layer_1_tri_1[];
+extern Vtx PM_DOUBLE_DOOR_000_offset_001_mesh_layer_1_vtx_0[26];
+extern Gfx PM_DOUBLE_DOOR_000_offset_001_mesh_layer_1_tri_0[];
+extern Vtx PM_DOUBLE_DOOR_000_offset_001_mesh_layer_1_vtx_1[24];
+extern Gfx PM_DOUBLE_DOOR_000_offset_001_mesh_layer_1_tri_1[];
 extern Gfx mat_PM_DOUBLE_DOOR_polished_wooden_door_001[];
 extern Gfx mat_revert_PM_DOUBLE_DOOR_polished_wooden_door_001[];
 extern Gfx mat_PM_DOUBLE_DOOR_knob[];
 extern Gfx mat_revert_PM_DOUBLE_DOOR_knob[];
-extern Gfx PM_DOUBLE_DOOR_PM_STAR_DOOR_DOUBLE_geo_mesh_layer_1[];
+extern Gfx PM_DOUBLE_DOOR_000_offset_001_mesh_layer_1[];
