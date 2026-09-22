@@ -1234,7 +1234,7 @@ const Collision castle_courtyard_area_1_collision[] = {
 	COL_VERTEX(-6816, -1256, -415),
 	COL_VERTEX(-6916, -1317, -445),
 	COL_VERTEX(-6916, -1312, -552),
-	COL_VERTEX(-6915, -1230, -653),
+	COL_VERTEX(-6915, -1229, -653),
 	COL_VERTEX(-7021, -1283, -519),
 	COL_VERTEX(-6915, -1135, -724),
 	COL_VERTEX(-7051, -1211, -594),
