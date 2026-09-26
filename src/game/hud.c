@@ -20,6 +20,15 @@
 
 #include "config.h"
 
+extern const Gfx dl_power_meter_base8[];
+extern const Gfx dl_power_meter_base7[];
+extern const Gfx dl_power_meter_base6[];
+extern const Gfx dl_power_meter_base5[];
+extern const Gfx dl_power_meter_base4[];
+extern const Gfx dl_power_meter_base3[];
+extern const Gfx dl_power_meter_base2[];
+extern const Gfx dl_power_meter_base1[];
+
 /* @file hud.c
  * This file implements HUD rendering and power meter animations.
  * That includes stars, lives, coins, camera status, power meter, timer
@@ -340,7 +349,9 @@ void render_power_meter_health_segment(s16 numHealthWedges) {
  * That includes the "POWER" base and the colored health segment textures.
  */
 void render_dl_power_meter(s16 numHealthWedges) {
-    Mtx *mtx = alloc_display_list(sizeof(Mtx));
+    Mtx *mtx;
+    
+    mtx = alloc_display_list(sizeof(Mtx));
 
     if (mtx == NULL) {
         return;
@@ -350,11 +361,37 @@ void render_dl_power_meter(s16 numHealthWedges) {
 
     gSPMatrix(gDisplayListHead++, VIRTUAL_TO_PHYSICAL(mtx++),
               G_MTX_MODELVIEW | G_MTX_MUL | G_MTX_PUSH);
-    gSPDisplayList(gDisplayListHead++, &dl_power_meter_base);
-
+    if (numHealthWedges == 8) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base8);
+    }
+    if (numHealthWedges == 7) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base7);
+    }
+     if (numHealthWedges == 6) {
+      gSPDisplayList(gDisplayListHead++, &dl_power_meter_base6);
+    }
+    if (numHealthWedges == 5) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base5);
+    }
+    if (numHealthWedges == 4) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base4);
+    }
+    if (numHealthWedges == 3) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base3);
+    }
+    if (numHealthWedges == 2) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base2);
+    }
+    if (numHealthWedges == 1) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base1);
+    }
+    if (numHealthWedges == 0) {
+     gSPDisplayList(gDisplayListHead++, &dl_power_meter_base);
+    }
+   // gSPDisplayList(gDisplayListHead++, &dl_power_meter_base);
     if (numHealthWedges != 0) {
         gSPDisplayList(gDisplayListHead++, &dl_power_meter_health_segments_begin);
-        render_power_meter_health_segment(numHealthWedges);
+       //  render_power_meter_health_segment(numHealthWedges);
         gSPDisplayList(gDisplayListHead++, &dl_power_meter_health_segments_end);
     }
 

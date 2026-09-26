@@ -16,6 +16,8 @@ const GeoLayout castle_inside_area_1_geo[] = {
 		GEO_OPEN_NODE(),
 			GEO_DISPLAY_LIST(LAYER_ALPHA, castle_inside_dl_Paper_Mario_Lobby_mesh_layer_4),
 			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, castle_inside_dl_Paper_Mario_Lobby_mesh_layer_5),
+			GEO_DISPLAY_LIST(LAYER_TRANSPARENT, castle_inside_dl_final_revert_mesh_layer_5),
+			GEO_DISPLAY_LIST(LAYER_OPAQUE, castle_inside_dl_final_revert_mesh_layer_1),
 		GEO_CLOSE_NODE(),
 		GEO_BILLBOARD_WITH_PARAMS(LAYER_OPAQUE, 1381, -5, -2682),
 		GEO_OPEN_NODE(),
@@ -34,6 +36,9 @@ const GeoLayout castle_inside_area_1_geo[] = {
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, 1572, 277, -2198, 0, -90, 0, castle_inside_dl_Tea_014_mesh_layer_4),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, 1371, 277, -2198, 0, -90, 0, castle_inside_dl_Tea_015_mesh_layer_4),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_ALPHA, -798, 739, 1152, 0, -135, 90, castle_inside_dl_Windows_mesh_layer_4),
+		GEO_OPEN_NODE(),
+			GEO_DISPLAY_LIST(LAYER_ALPHA, castle_inside_dl_final_revert_mesh_layer_4),
+		GEO_CLOSE_NODE(),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
 };

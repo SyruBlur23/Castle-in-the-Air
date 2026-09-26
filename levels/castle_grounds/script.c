@@ -68,7 +68,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		OBJECT(MODEL_RED_FLAME, 6, 820, 1072, 0, 180, 0, 0x00000000, bhvFlame),
 		OBJECT(MODEL_RED_FLAME, -614, 820, 1072, 0, 180, 0, 0x00000000, bhvFlame),
 		OBJECT(MODEL_RED_FLAME, -3646, -23, -983, 0, 180, 0, 0x00000000, bhvFlame),
-		MARIO_POS(0x04, 180, -1565, 78, 7788),
+		MARIO_POS(0x04, 180, -1539, -21, 7715),
 		OBJECT(MODEL_NONE, -155, 211, -6802, 0, 0, 0, (2 << 16), bhvMessagePanel),
 		OBJECT(MODEL_YOSHI, 1888, 247, -3469, 0, -150, 0, (1 << 24), bhvYoshiMessage),
 		OBJECT(MODEL_NONE, -6671, 265, -362, 0, 180, 0, 0x00000000, bhvTree),
@@ -133,7 +133,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x04, 180, -1565, 78, 7788),
+	MARIO_POS(0x04, 180, -1539, -21, 7715),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),

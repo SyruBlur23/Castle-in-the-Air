@@ -29,7 +29,7 @@ void scroll_castle_courtyard_dl_Fountain_Water_mesh_layer_5_vtx_0() {
 
 void scroll_castle_courtyard_dl_Quiet_Courtyard_mesh_layer_5_vtx_2() {
 	int i = 0;
-	int count = 67;
+	int count = 66;
 	int width = 32 * 0x20;
 	int height = 32 * 0x20;
 

@@ -123,46 +123,34 @@ DEFINE_DIALOG(DIALOG_007, 1, 4, 45, 200, _("\
 Y'know, not all Power Stars\n\
 are lost in the painted\n\
 worlds. You may find some\n\
-of them hidden inside the\n\
-castle walls! In fact, a\n\
-Power Star could be hiding\n\
+of them tucked away inside\n\
+the castle walls! In fact,\n\
+one of them could be hiding\n\
 inside this very room\n\
 as we speak!"))
 
-DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-BEWARE OF CHAIN CHOMP\n\
-Extreme Danger!\n\
-Get close and press [C]^\n\
-for a better look.\n\
-Scary, huh?\n\
-See the Red Coin on top\n\
-of the stake?\n\
-\n\
-When you collect eight of\n\
-them, a Power Star will\n\
-appear in the meadow\n\
-across the bridge."))
+DEFINE_DIALOG(DIALOG_008, 1, 4, 45, 200, _("\
+Mmm... the food in here is\n\
+scrumptious! Hey, don't tell\n\
+the chef, but whenever the\n\
+Princess throws a feast,\n\
+I can't help but pick a few\n\
+morsels off the plates.\n\
+By the way, the window in\n\
+this room is magical!\n\
+If you stand close to it,\n\
+you'll be taken to a\n\
+whole new world.\n\
+Pretty cool, huh?"))
 
-DEFINE_DIALOG(DIALOG_009, 1, 5, 30, 200, _("\
-Long time, no see! Wow,\n\
-have you gotten fast!\n\
-Have you been training\n\
-on the sly, or is it the\n\
-power of the Stars?\n\
-I've been feeling down\n\
-about losing the last\n\
-race. This is my home\n\
-course--how about a\n\
-rematch?\n\
-The goal is in\n\
-Windswept Valley.\n\
-Ready?\n\
-\n\
-//Go//// Don't Go"))
+DEFINE_DIALOG(DIALOG_009, 1, 3, 45, 200, _("\
+(I read the plaque)\n\
+『ETERNAL STAR -』\n\
+『Remember our wish』"))
 
-DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_010, 1, 4, 45, 200, _("\
 You've stepped on the\n\
-Wing Cap Switch. Wearing\n\
+Wing Cap Switch! Wearing\n\
 the Wing Cap, you can\n\
 soar through the sky.\n\
 Now Wing Caps will pop\n\
@@ -173,9 +161,9 @@ Would you like to Save?\n\
 \n\
 //Yes////No"))
 
-DEFINE_DIALOG(DIALOG_011, 1, 4, 30, 200, _("\
-You've just stepped on\n\
-the Metal Cap Switch!\n\
+DEFINE_DIALOG(DIALOG_011, 1, 4, 45, 200, _("\
+You've stepped on the\n\
+Metal Cap Switch!\n\
 The Metal Cap makes\n\
 Mario invincible.\n\
 Now Metal Caps will\n\
@@ -186,9 +174,9 @@ Would you like to Save?\n\
 \n\
 //Yes////No"))
 
-DEFINE_DIALOG(DIALOG_012, 1, 4, 30, 200, _("\
-You've just stepped on\n\
-the Vanish Cap Switch.\n\
+DEFINE_DIALOG(DIALOG_012, 1, 4, 45, 200, _("\
+You've stepped on the\n\
+Vanish Cap Switch!\n\
 The Vanish Cap makes\n\
 Mario disappear.\n\
 Now Vanish Caps will pop\n\
@@ -199,68 +187,79 @@ Would you like to Save?\n\
 \n\
 //Yes////No"))
 
-DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
-You've collected 100\n\
-coins! Mario gains more\n\
-power from the castle.\n\
-Do you want to Save?\n\
-//Yes////No"))
+DEFINE_DIALOG(DIALOG_013, 1, 4, 45, 200, _("\
+TOADS - Men of great power\n\
+and fame may have their\n\
+ambitions. They may wish\n\
+with all their hearts\n\
+to shape the world\n\
+in their image.\n\
+\n\
+\n\
+But is only because of\n\
+the common man, the\n\
+unsung heroes,\n\
+that dreams come true.\n\
+To every person reading\n\
+this sign, none of this\n\
+would be possible without\n\
+your hard work.\n\
+Thank you for sharing\n\
+my dream."))
 
-DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-Wow! Another Power Star!\n\
-Mario gains more courage\n\
-from the power of the\n\
-castle.\n\
-Do you want to Save?\n\
+DEFINE_DIALOG(DIALOG_014, 1, 5, 45, 200, _("\
+MARIO ARIELLO -\n\
+The hero of the story (maybe).\n\
+Without the glittering light\n\
+of his fame and fortune,\n\
+nothing would ever happen."))
+
+DEFINE_DIALOG(DIALOG_015, 1, 4, 45, 200, _("\
+PRINCESS『PEACH』TOADSTOOL -\n\
+Ruler of the open skies,\n\
+architect of the floating\n\
+castle. The people of the\n\
+Sky Kingdom owe much to\n\
+her wise leadership and\n\
+gentle nature. In her\n\
+honor, we have dedicated\n\
+these statues to the\n\
+principles of kindness\n\
+and community."))
+
+DEFINE_DIALOG(DIALOG_016, 1, 4, 45, 200, _("\
+(Do I really have to read this?)\n\
+\n\
+(Well... if you insist...)\n\
+\n\
+DAISY -\n\
+Princess of the Barren Earth,\n\
+ruler of the empty fields.\n\
+Beloved sister of the sky,\n\
+her mere existence in this\n\
+world is a gift greater than\n\
+anything else.\n\
+\n\
+\n\
+Thank you for being\n\
+part of my life,\n\
+little sister."))
+
+DEFINE_DIALOG(DIALOG_017, 1, 4, 45, 200, _("\
+Yahoo!! You've acquired\n\
+another Power Star!\n\
+The power of the stars\n\
+shines upon Daisy\n\
+Save your game?\n\
 \n\
 //You Bet//Not Now"))
 
-DEFINE_DIALOG(DIALOG_015, 1, 4, 30, 200, _("\
-You can punch enemies to\n\
-knock them down. Press [A]\n\
-to jump, [B] to punch.\n\
-Press [A] then [B] to Kick.\n\
-To pick something up,\n\
-press [B], too. To throw\n\
-something you're holding,\n\
-press [B] again."))
-
-DEFINE_DIALOG(DIALOG_016, 1, 3, 30, 200, _("\
-Hop on the shiny shell and\n\
-ride wherever you want to\n\
-go! Shred those enemies!"))
-
-DEFINE_DIALOG(DIALOG_017, 1, 4, 30, 200, _("\
-I'm the Big Bob-omb, lord\n\
-of all blasting matter,\n\
-king of ka-booms the\n\
-world over!\n\
-How dare you scale my\n\
-mountain? By what right\n\
-do you set foot on my\n\
-imperial mountaintop?\n\
-You may have eluded my\n\
-guards, but you'll never\n\
-escape my grasp...\n\
-\n\
-...and you'll never take\n\
-away my Power Star. I\n\
-hereby challenge you,\n\
-Mario!\n\
-If you want the Star I\n\
-hold, you must prove\n\
-yourself in battle.\n\
-\n\
-Can you pick me up from\n\
-the back and hurl me to\n\
-this royal turf? I think\n\
-that you cannot!"))
-
-DEFINE_DIALOG(DIALOG_018, 1, 4, 30, 200, _("\
-I'm sleeping because...\n\
-...I'm sleepy. I don't\n\
-like being disturbed.\n\
-Please walk quietly."))
+DEFINE_DIALOG(DIALOG_018, 1, 5, 45, 200, _("\
+(The plaque is defaced\n\
+with graffiti:)\n\
+『LUIGI - THE ONLY\n\
+TRUE HERO LEFT IN THIS\n\
+WRETCHED LAND』"))
 
 DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
 Shhh! Please walk\n\
@@ -274,10 +273,10 @@ a cake for you.\n\
 Yours truly--\n\
 Princess Toadstool"))
 
-DEFINE_DIALOG(DIALOG_021, 1, 5, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_021, 1, 5, 45, 200, _("\
 Welcome.\n\
 No one's home!\n\
-Now " SCRAM "\n\
+Now scram\n\
 and don't come back!\n\
 Gwa ha ha!"))
 
@@ -1960,18 +1959,12 @@ DEFINE_DIALOG(DIALOG_160, 1, 4, 30, 200, _("\
 Press [B] while running\n\
 fast to do a Body Slide\n\
 attack. To stand while\n\
-sliding, press [A] or [B]."))
-
-#ifdef VERSION_EU
-#define KEEP_ON_PLAYING ".."
-#else
-#define KEEP_ON_PLAYING "\n\
+sliding, press [A] or [B].\n\
 We want you to keep on\n\
 playing, so we have a\n\
 little something for you.\n\
 We hope that you like it!\n\
-Enjoy!!!"
-#endif
+Enjoy!!!"))
 
 DEFINE_DIALOG(DIALOG_161, 1, 4, 30, 200, _("\
 Mario!!!\n\
@@ -1993,10 +1986,12 @@ message for you.\n\
 『Thanks for playing Super\n\
 Mario 64! This is the\n\
 end of the game, but not\n\
-the end of the fun." \
-KEEP_ON_PLAYING "』\n\
-\n\
-The Super Mario 64 Team"))
+the end of the fun. \n\
+We want you to keep on\n\
+playing, so we have a\n\
+little something for you.\n\
+We hope that you like it!\n\
+The Super Mario 64 Team』"))
 
 DEFINE_DIALOG(DIALOG_162, 1, 4, 30, 200, _("\
 No, no, no! Not you\n\
