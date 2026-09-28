@@ -65,6 +65,10 @@ UNUSED static const u64 binid_13 = 13;
 #include "bobomb/anims/table.inc.c"
 UNUSED static const u64 binid_14 = 14;
 
+#include "koopa/model.inc.c"
+#include "koopa/anims/data.inc.c"
+#include "koopa/anims/table.inc.c"
+
 #include "metal_box/model.inc.c"
 #include "metal_box/collision.inc.c"
 UNUSED static const u64 binid_15 = 15;

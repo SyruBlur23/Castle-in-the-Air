@@ -85,7 +85,7 @@ enum DialogBoxType {
 };
 
 #define DEFAULT_DIALOG_BOX_ANGLE 90.0f
-#define DEFAULT_DIALOG_BOX_SCALE 19.0f
+#define DEFAULT_DIALOG_BOX_SCALE 17.0f
 
 u8 gDialogCharWidths[256] = { // TODO: Is there a way to auto generate this?
     8,  6,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,  8,
@@ -711,7 +711,7 @@ s32 get_dialog_id(void) {
 void create_dialog_box(s16 dialog) {
     if (gDialogID == DIALOG_NONE) {
         gDialogID = dialog;
-        gDialogBoxType = DIALOG_TYPE_ROTATE;
+        gDialogBoxType = DIALOG_TYPE_ZOOM;
     }
 }
 
@@ -719,7 +719,7 @@ void create_dialog_box_with_var(s16 dialog, s32 dialogVar) {
     if (gDialogID == DIALOG_NONE) {
         gDialogID = dialog;
         gDialogVariable = dialogVar;
-        gDialogBoxType = DIALOG_TYPE_ROTATE;
+        gDialogBoxType = DIALOG_TYPE_ZOOM;
     }
 }
 
@@ -733,7 +733,7 @@ void create_dialog_inverted_box(s16 dialog) {
 void create_dialog_box_with_response(s16 dialog) {
     if (gDialogID == DIALOG_NONE) {
         gDialogID = dialog;
-        gDialogBoxType = DIALOG_TYPE_ROTATE;
+        gDialogBoxType = DIALOG_TYPE_ZOOM;
         gLastDialogResponse = 1;
     }
 }
@@ -741,7 +741,7 @@ void create_dialog_box_with_response(s16 dialog) {
 void reset_dialog_render_state(void) {
     level_set_transition(0, NULL);
 
-    gDialogBoxScale = 15.0f;
+    gDialogBoxScale = 17.0f;
     gDialogBoxOpenTimer = 90.0f;
     gDialogBoxState = DIALOG_STATE_OPENING;
     gDialogID = DIALOG_NONE;
@@ -766,7 +766,7 @@ void render_dialog_box_type(struct DialogEntry *dialog, s8 linesPerBox) {
             break;
         case DIALOG_TYPE_ZOOM: // Renders a dialog white box with zoom
             if (gDialogBoxState == DIALOG_STATE_OPENING || gDialogBoxState == DIALOG_STATE_CLOSING) {
-                create_dl_translation_matrix(MENU_MTX_NOPUSH, (65.0f - (65.0f / gDialogBoxScale)), ((40.0f / gDialogBoxScale) - 40), 0);
+                create_dl_translation_matrix(MENU_MTX_NOPUSH, (80.0f - (80.0f / gDialogBoxScale)), ((40.0f / gDialogBoxScale) - 40), 0);
                 create_dl_scale_matrix(MENU_MTX_NOPUSH, (1.0f / gDialogBoxScale), (1.0f / gDialogBoxScale), 1.0f);
             }
             gDPSetEnvColor(gDisplayListHead++, 0, 0, 0, 150);
@@ -1161,7 +1161,7 @@ void render_dialog_entries(void) {
                 gDialogBoxScale -= 1.5f;
             } else {
                 gDialogBoxOpenTimer -= 10.0f;
-                gDialogBoxScale -= 2.0f;
+                gDialogBoxScale -= 1.5f;
             }
 
             if (gDialogBoxOpenTimer == 0.0f) {
@@ -1205,7 +1205,7 @@ void render_dialog_entries(void) {
             }
 
             gDialogBoxOpenTimer = gDialogBoxOpenTimer + 10.0f;
-            gDialogBoxScale = gDialogBoxScale + 2.0f;
+            gDialogBoxScale = gDialogBoxScale + 1.5f;
 
             if (gDialogBoxOpenTimer == DEFAULT_DIALOG_BOX_ANGLE) {
                 gDialogBoxState = DIALOG_STATE_OPENING;

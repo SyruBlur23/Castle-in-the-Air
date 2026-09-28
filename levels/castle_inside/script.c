@@ -92,7 +92,7 @@ const LevelScript level_castle_inside_entry[] = {
 		OBJECT(MODEL_PM_SINGLE_DOOR, 1203, 13, 253, 0, -135, 0, (31 << 16), bhvDoor),
 		OBJECT(MODEL_PM_SINGLE_DOOR, 2048, 219, -823, 0, -90, 0, (31 << 16), bhvDoor),
 		OBJECT(MODEL_PM_SINGLE_DOOR, -4, 13, -1002, 0, 0, 0, (39 << 16), bhvDoorWarp),
-		OBJECT(MODEL_TOAD, -4028, 12, 3906, 0, -136, 0, (6 << 24), bhvToadMessage),
+		OBJECT(MODEL_KOOPA_WITH_SHELL, -4028, 12, 3906, 0, -136, 0, (6 << 24), bhvKoopaMessage),
 		OBJECT(MODEL_TOAD, -2028, 12, 48, 0, -46, 0, (7 << 24), bhvToadMessage),
 		OBJECT(MODEL_TOAD, 1179, 12, 893, 0, 134, 0, (8 << 24), bhvToadMessage),
 		OBJECT(MODEL_NONE, -1353, 13, 80, 0, 135, 0, (5 << 16), bhvMessagePanel),

@@ -261,9 +261,11 @@ with graffiti:)\n\
 TRUE HERO LEFT IN THIS\n\
 WRETCHED LAND』"))
 
-DEFINE_DIALOG(DIALOG_019, 1, 2, 30, 200, _("\
-Shhh! Please walk\n\
-quietly in the hallway!"))
+DEFINE_DIALOG(DIALOG_019, 1, 4, 45, 200, _("\
+(A man is sobbing on the\n\
+other side of the wall.)\n\
+\n\
+(Best to forget about it.)"))
 
 DEFINE_DIALOG(DIALOG_020, 1, 6, 95, 150, _("\
 Dear Mario:\n\

@@ -17,6 +17,8 @@ void bhv_toad_message_loop(void);
 void bhv_toad_message_init(void);
 void bhv_yoshi_message_loop(void);
 void bhv_yoshi_message_init(void);
+void bhv_koopa_message_loop(void);
+void bhv_koopa_message_init(void);
 void bhv_unlock_door_star_init(void);
 void bhv_unlock_door_star_loop(void);
 Gfx *geo_mirror_mario_set_alpha(s32 callContext, struct GraphNode *node, UNUSED Mat4 *mtx);

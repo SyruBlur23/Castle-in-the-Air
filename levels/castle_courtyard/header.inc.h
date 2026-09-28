@@ -390,7 +390,7 @@ extern Vtx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_vtx_6[325];
 extern Gfx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_tri_6[];
 extern Vtx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_vtx_7[2299];
 extern Gfx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_tri_7[];
-extern Vtx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_vtx_8[422];
+extern Vtx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_vtx_8[426];
 extern Gfx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_tri_8[];
 extern Vtx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_vtx_9[1196];
 extern Gfx castle_courtyard_dl_Quiet_Courtyard_mesh_layer_1_tri_9[];
