@@ -454,9 +454,8 @@ s32 act_reading_automatic_dialog(struct MarioState *m) {
         // finished action
         else if (m->actionState == 25) {
             disable_time_stop();
-            if (gNeverEnteredCastle) {
+            if (gNeverEnteredCastle == TRUE && gCurrLevelNum == LEVEL_CASTLE) {
                 gNeverEnteredCastle = FALSE;
-                play_cutscene_music(SEQUENCE_ARGS(0, SEQ_LEVEL_INSIDE_CASTLE));
             }
             if (m->prevAction == ACT_STAR_DANCE_WATER) {
                 set_mario_action(m, ACT_WATER_IDLE, 0); // 100c star?
@@ -989,15 +988,11 @@ s32 act_warp_door_spawn(struct MarioState *m) {
             m->usedObj->oInteractStatus = INT_STATUS_WARP_DOOR_PUSHED;
         }
     } else if (m->usedObj->oAction == DOOR_ACT_CLOSED) {
-#ifdef ENABLE_VANILLA_LEVEL_SPECIFIC_CHECKS
-        if (gNeverEnteredCastle && gCurrLevelNum == LEVEL_CASTLE) {
-            set_mario_action(m, ACT_READING_AUTOMATIC_DIALOG, DIALOG_021);
+        if (gCurrLevelNum == LEVEL_CASTLE && gCurrAreaIndex == 1 && gNeverEnteredCastle == TRUE) {
+            set_mario_action(m, ACT_READING_AUTOMATIC_DIALOG, DIALOG_003);
         } else {
             set_mario_action(m, ACT_IDLE, 0);
         }
-#else
-        set_mario_action(m, ACT_IDLE, 0);
-#endif
     }
     set_mario_animation(m, MARIO_ANIM_FIRST_PERSON);
     stop_and_set_height_to_floor(m);
