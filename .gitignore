@@ -1586,7 +1586,7 @@ textures/outside/castle_grounds_textures.0A800.rgba16.png
 textures/outside/castle_grounds_textures.0B000.rgba16.png
 textures/outside/castle_grounds_textures.0B400.rgba16.png
 textures/outside/castle_grounds_textures.0BC00.ia16.png
-textures/segment2/font_graphics.05900.ia4.png
+/*textures/segment2/font_graphics.05900.ia4.png
 textures/segment2/font_graphics.05940.ia4.png
 textures/segment2/font_graphics.05980.ia4.png
 textures/segment2/font_graphics.059C0.ia4.png
@@ -2039,7 +2039,7 @@ textures/segment2/segment2.13C58.rgba16.png
 textures/segment2/segment2.14838.ia8.png
 textures/segment2/segment2.umlaut.rgba16.png
 textures/segment2/shadow_quarter_circle.ia8.png
-textures/segment2/shadow_quarter_square.ia8.png
+textures/segment2/shadow_quarter_square.ia8.png*/
 textures/sky/metal_hole.rgba16.png
 textures/sky/rr_textures.00000.rgba16.png
 textures/sky/rr_textures.00800.rgba16.png
