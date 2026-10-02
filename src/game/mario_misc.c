@@ -405,6 +405,39 @@ void bhv_koopa_message_init(void) {
     }
 }
 
+void bhv_ominous_message_loop(void) {
+    switch  (o->oAction) {
+        case 0:
+            if (cur_obj_can_mario_activate_textbox_2(150.0f, 150.0f)) {
+                if (set_mario_npc_dialog(MARIO_DIALOG_LOOK_UP) == MARIO_DIALOG_STATUS_START) {
+        o->oAction++;
+        };
+    }    
+        break;
+
+        case 1:
+            if (set_mario_npc_dialog(MARIO_DIALOG_LOOK_UP) == MARIO_DIALOG_STATUS_SPEAK) {
+        o->oAction++;
+        };
+        break;
+
+        case 2:
+            if (cur_obj_update_dialog_with_cutscene(MARIO_DIALOG_LOOK_UP, DIALOG_FLAG_TURN_TO_MARIO, CUTSCENE_DIALOG, o->oBehParams2ndByte)) {
+        set_mario_npc_dialog(MARIO_DIALOG_STOP);
+        disable_time_stop_including_mario();
+        o->oIntangibleTimer = -1;
+        o->oAction++;
+        };
+        break;
+
+        case 3:
+            if (o->oDistanceToMario >= (o->oHomeZ + 6000.0f)) {
+        o->oIntangibleTimer = 0;    
+        o->oAction =  0;
+        };
+    }
+}
+
 static void star_door_unlock_spawn_particles(s16 angleOffset) {
     struct Object *sparkleParticle = spawn_object(o, MODEL_NONE, bhvSparkleSpawn);
 

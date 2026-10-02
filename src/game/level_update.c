@@ -1267,7 +1267,7 @@ s32 init_level(void) {
             } else if (!gDebugLevelSelect) {
                 if (gMarioState->action != ACT_UNINITIALIZED) {
                     set_mario_action(gMarioState, ACT_READING_AUTOMATIC_DIALOG, 0);
-                            create_dialog_box(000);
+                            create_dialog_box(DIALOG_000);
                 }
             }
         }

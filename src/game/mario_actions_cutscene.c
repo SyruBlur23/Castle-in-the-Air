@@ -989,6 +989,7 @@ s32 act_warp_door_spawn(struct MarioState *m) {
         }
     } else if (m->usedObj->oAction == DOOR_ACT_CLOSED) {
         if (gCurrLevelNum == LEVEL_CASTLE && gCurrAreaIndex == 1 && gNeverEnteredCastle == TRUE) {
+            play_peachs_jingle();
             set_mario_action(m, ACT_READING_AUTOMATIC_DIALOG, DIALOG_003);
         } else {
             set_mario_action(m, ACT_IDLE, 0);

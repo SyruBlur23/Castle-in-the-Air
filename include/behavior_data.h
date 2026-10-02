@@ -295,6 +295,7 @@ extern const BehaviorScript bhvMario[];
 extern const BehaviorScript bhvToadMessage[];
 extern const BehaviorScript bhvYoshiMessage[];
 extern const BehaviorScript bhvKoopaMessage[];
+extern const BehaviorScript bhvOminousMessage[];
 extern const BehaviorScript bhvUnlockDoorStar[];
 extern const BehaviorScript bhvInstantActiveWarp[];
 extern const BehaviorScript bhvAirborneWarp[];
