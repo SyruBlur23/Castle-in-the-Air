@@ -427,6 +427,7 @@ void bhv_ominous_message_loop(void) {
         disable_time_stop_including_mario();
         o->oIntangibleTimer = -1;
         o->oAction++;
+        obj_mark_for_deletion(o);
         };
         break;
 

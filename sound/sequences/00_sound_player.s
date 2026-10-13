@@ -2139,7 +2139,7 @@ chan_end
 layer_transpose_mario -2
 .layer_C5C:
 layer_portamento_mario 0x82, 39, 200
-layer_note1_mario 38, 0x24, 120
+layer_note1_mario 44, 0x24, 120
 layer_end
 
 .sound_mario_hoohoo:
@@ -2150,7 +2150,7 @@ chan_end
 
 .layer_C6C:
 layer_portamento_mario 0x82, 44, 200
-layer_note1_mario 39, 0x30, 127
+layer_note1_mario 44, 0x30, 127
 layer_end
 
 .sound_mario_yahoo:
@@ -2480,7 +2480,7 @@ chan_end
 
 .layer_E29:
 layer_portamento_mario 0x81, 38, 255
-layer_note1_mario 36, 0x8c, 115
+layer_note1_mario 40, 0x8c, 115
 layer_end
 
 .sound_mario_okey_dokey:
@@ -2568,7 +2568,7 @@ chan_setlayer 0, .layer_EA0
 chan_end
 
 .layer_EA0:
-layer_note1_mario 39, 0x55, 110
+layer_note1_mario 44, 0x55, 110
 layer_end
 
 .sound_mario_hello:
@@ -2588,7 +2588,7 @@ chan_setlayer 0, .layer_EB8
 chan_end
 
 .layer_EB8:
-layer_note1_mario 39, 0x12c, 127
+layer_note1_mario 44, 0x12c, 127
 layer_end
 
 .sound_mario_twirl_bounce:
@@ -2643,7 +2643,7 @@ chan_setlayer 0, .layer_F08
 chan_end
 
 .layer_F08:
-layer_note1_mario 39, 0x96, 110
+layer_note1_mario 78, 0x96, 110
 layer_end
 
 .sound_peach_mario:

@@ -14,12 +14,12 @@
 
 DEFINE_DIALOG(DIALOG_000, 1, 4, 45, 200, _("\
 Yahoo! After a long and arduous\n\
-journey, you've finally made it!\n\
+journey, you've finally arrived!\n\
 In the castle up ahead,\n\
 I'm waiting especially for you.\n\
 If you're up for an adventure,\n\
-please step forth and\n\
-pay me a visit.\n\
+don't be shy! Come and see all\n\
+the wonder our world can offer!\n\
 -Princess Peach"))
 
 DEFINE_DIALOG(DIALOG_001, 1, 4, 45, 200, _("\
@@ -90,15 +90,17 @@ experience special for you,\n\
 but I suppose life had...\n\
 other plans. Please, you have\n\
 to recover the Power Stars\n\
-and rescue our Princess!"))
+and rescue our Princess!\n\
+Who knows what nasty plans\n\
+Bowser has cooked up this time?"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 3, 45, 200, _("\
 LIBRARY HOURS:\n\
 Mon. - Sat.     8 AM - 6 PM\n\
 Sun.            10 AM - 3 PM\n\
-Please be quiet in the\n\
-library and respect our\n\
-hardworking staff.\n\
+Shhh! Please be quiet in\n\
+the library and respectful\n\
+of our hardworking staff.\n\
 NOTE: Don't forget to return\n\
 any books you borrow!\n\
 -Princess Peach"))
@@ -136,12 +138,12 @@ the chef, but whenever the\n\
 Princess throws a feast,\n\
 I can't help but pick a few\n\
 morsels off the plates.\n\
-By the way, the window in\n\
-this room is magical!\n\
-If you stand close to it,\n\
-you'll be taken to a\n\
-whole new world.\n\
-Pretty cool, huh?"))
+POINT OF ADVICE:\n\
+The window in this room is\n\
+magical! They say those who\n\
+stand close by will be taken\n\
+to a whole new world. Pretty\n\
+interesting, don't you think?"))
 
 DEFINE_DIALOG(DIALOG_009, 1, 3, 45, 200, _("\
 (I read the plaque)\n\
@@ -149,39 +151,30 @@ DEFINE_DIALOG(DIALOG_009, 1, 3, 45, 200, _("\
 『Remember our wish』"))
 
 DEFINE_DIALOG(DIALOG_010, 1, 4, 45, 200, _("\
-You've stepped on the\n\
-Wing Cap Switch! Wearing\n\
-the Wing Cap, you can\n\
-soar through the sky.\n\
-Now Wing Caps will pop\n\
-out of all the red blocks\n\
-you find.\n\
+You've found the Wing Cap!\n\
+Wearing the Wing Cap, now\n\
+you can fly and see all\n\
+the beauty of the world!\n\
 \n\
 Would you like to Save?\n\
 \n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_011, 1, 4, 45, 200, _("\
-You've stepped on the\n\
-Metal Cap Switch!\n\
-The Metal Cap makes\n\
-Mario invincible.\n\
-Now Metal Caps will\n\
-pop out of all of the\n\
-green blocks you find.\n\
+You've found the Metal Cap!\n\
+You're invincible!\n\
+...But now you feel so heavy\n\
+that you can't swim.\n\
 \n\
-Would you like to Save?\n\
+Be careful in the water!\n\
 \n\
 //Yes////No"))
 
 DEFINE_DIALOG(DIALOG_012, 1, 4, 45, 200, _("\
-You've stepped on the\n\
-Vanish Cap Switch!\n\
-The Vanish Cap makes\n\
-Mario disappear.\n\
-Now Vanish Caps will pop\n\
-from all of the blue\n\
-blocks you find.\n\
+You've found the Vanish Cap!\n\
+If you've ever wanted to\n\
+disappear, your dreams have\n\
+now come true.\n\
 \n\
 Would you like to Save?\n\
 \n\
@@ -196,7 +189,7 @@ to shape the world\n\
 in their image.\n\
 \n\
 \n\
-But is only because of\n\
+But it's only because of\n\
 the common man, the\n\
 unsung heroes,\n\
 that dreams come true.\n\
@@ -222,10 +215,10 @@ castle. The people of the\n\
 Sky Kingdom owe much to\n\
 her wise leadership and\n\
 gentle nature. In her\n\
-honor, we have dedicated\n\
-these statues to the\n\
-principles of kindness\n\
-and community."))
+honor,\n\
+we have dedicated these\n\
+statues to the principles\n\
+of kindness and community."))
 
 DEFINE_DIALOG(DIALOG_016, 1, 4, 45, 200, _("\
 (Do I really have to read this?)\n\
@@ -246,20 +239,17 @@ part of my life,\n\
 little sister."))
 
 DEFINE_DIALOG(DIALOG_017, 1, 4, 45, 200, _("\
-Yahoo!! You've acquired\n\
-another Power Star!\n\
-The power of the stars\n\
-shines upon Daisy\n\
-Save your game?\n\
+(Found a Star...)\n\
+\n\
 \n\
 //You Bet//Not Now"))
 
 DEFINE_DIALOG(DIALOG_018, 1, 5, 45, 200, _("\
 (The plaque is defaced\n\
-with graffiti:)\n\
-『LUIGI ARIES - THE ONLY\n\
-TRUE HERO LEFT IN THIS\n\
-WRETCHED LAND』"))
+with graffiti)\n\
+『There's only one true\n\
+hero left in this floating\n\
+prison. And it's me, Luigi』"))
 
 DEFINE_DIALOG(DIALOG_019, 1, 5, 45, 200, _("\
 (A man is sobbing on the\n\
@@ -285,21 +275,17 @@ Now scram\n\
 and don't come back!\n\
 Gwa ha ha!"))
 
-DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
-You need a key to open\n\
-this door."))
+DEFINE_DIALOG(DIALOG_022, 1, 1, 45, 200, _("\
+(It's locked)."))
 
-DEFINE_DIALOG(DIALOG_023, 1, 3, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_023, 1, 3, 45, 200, _("\
 This key doesn't fit!\n\
-Maybe it's for the\n\
-basement..."))
+Maybe it's looking for\n\
+another door..."))
 
-DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
-You need Star power to\n\
-open this door. Recover a\n\
-Power Star from an enemy\n\
-inside one of the castle's\n\
-paintings."))
+DEFINE_DIALOG(DIALOG_024, 1, 4, 45, 200, _("\
+It's locked. Only the power\n\
+of a Star can open this door."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 4, 95, 200, _("\
 It takes the power of\n\
@@ -477,10 +463,9 @@ You're no slouch, but I'm\n\
 a better sledder!\n\
 Better luck next time!"))
 
-DEFINE_DIALOG(DIALOG_038, 1, 3, 95, 200, _("\
-Reacting to the Star\n\
-power, the door slowly\n\
-opens."))
+DEFINE_DIALOG(DIALOG_038, 1, 3, 45, 200, _("\
+\n\
+It slowly opens"))
 
 DEFINE_DIALOG(DIALOG_039, 1, 4, 30, 200, _("\
 No visitors allowed,\n\
@@ -1229,7 +1214,6 @@ DEFINE_DIALOG(DIALOG_098, 1, 2, 95, 200, _("\
 Come on in here...\n\
 ...heh, heh, heh..."))
 
-// unused
 DEFINE_DIALOG(DIALOG_099, 1, 5, 95, 200, _("\
 Eh he he...\n\
 You're mine, now, hee hee!\n\
@@ -1710,27 +1694,23 @@ DEFINE_DIALOG(DIALOG_141, 1, 4, 45, 200, _("\
 You've recovered one of\n\
 the stolen Power Stars.\n\
 Some of the sealed doors in\n\
-the castle can now be opened."))
+the castle can now be opened!"))
 
-DEFINE_DIALOG(DIALOG_142, 1, 5, 150, 200, _("\
+DEFINE_DIALOG(DIALOG_142, 1, 4, 45, 200, _("\
 You've recovered three\n\
-Power Stars! Now you can\n\
-open any door with a 3\n\
-on its star.\n\
-\n\
-You can come and go from\n\
-the open courses as you\n\
-please. The enemies ahead\n\
-are even meaner, so be\n\
-careful!"))
+Power Stars! The castle\n\
+doors swing open to\n\
+welcome you.\n\
+Please be careful\n\
+as you explore. The\n\
+enemies ahead can be\n\
+real jerks!"))
 
-DEFINE_DIALOG(DIALOG_143, 1, 6, 150, 200, _("\
+DEFINE_DIALOG(DIALOG_143, 1, 4, 45, 200, _("\
 You've recovered eight of\n\
-the Power Stars! Now you\n\
-can open the door with\n\
-the big Star! But Bowser\n\
-is just ahead...can you\n\
-hear the Princess calling?"))
+the Power Stars!\n\
+...Can you hear\n\
+the Princess calling your name?"))
 
 DEFINE_DIALOG(DIALOG_144, 1, 6, 150, 200, _("\
 You've recovered 30\n\
