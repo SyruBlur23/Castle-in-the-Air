@@ -253,6 +253,9 @@ void load_area(s32 index) {
         }
 
         geo_call_global_function_nodes(&gCurrentArea->graphNode->node, GEO_CONTEXT_AREA_LOAD);
+
+        extern f32 proxFadeVolume;
+        proxFadeVolume = 1.f;
     }
 }
 

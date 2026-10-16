@@ -4443,10 +4443,24 @@ const BehaviorScript bhvCastleFlagWaving[] = {
     END_LOOP(),
 };
 
+const BehaviorScript bhvVolumeFade[] = {
+    BEGIN(OBJ_LIST_LEVEL),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_volume_fade),
+    END_LOOP(),
+};
+
 const BehaviorScript bhvBirdsSoundLoop[] = {
     BEGIN(OBJ_LIST_DEFAULT),
     BEGIN_LOOP(),
         CALL_NATIVE(bhv_birds_sound_loop),
+    END_LOOP(),
+};
+
+const BehaviorScript bhvEarthSoundLoop[] = {
+    BEGIN(OBJ_LIST_DEFAULT),
+    BEGIN_LOOP(),
+        CALL_NATIVE(bhv_earth_sound_loop),
     END_LOOP(),
 };
 

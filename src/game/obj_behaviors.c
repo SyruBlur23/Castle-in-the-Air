@@ -749,6 +749,7 @@ UNUSED s32 debug_sequence_tracker(s16 debugInputSequence[]) {
 #include "behaviors/sound_volcano.inc.c"
 #include "behaviors/castle_flag.inc.c"
 #include "behaviors/sound_birds.inc.c"
+#include "behaviors/sound_earth.inc.c"
 #include "behaviors/sound_ambient.inc.c"
 #include "behaviors/sound_sand.inc.c"
 #include "behaviors/castle_cannon_grate.inc.c"

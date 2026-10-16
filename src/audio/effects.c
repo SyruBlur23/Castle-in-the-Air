@@ -74,7 +74,9 @@ static void sequence_channel_process_sound(struct SequenceChannel *seqChannel) {
 #endif
                     seqChannel->seqPlayer == &gSequencePlayers[SEQ_PLAYER_SFX]
                 ) {
-                    channelVolume = seqChannel->volume * seqChannel->volumeScale * seqChannel->seqPlayer->fadeVolume;
+                    extern f32 proxFadeVolume;
+
+                    channelVolume = seqChannel->volume * seqChannel->volumeScale * seqChannel->seqPlayer->fadeVolume * ((seqChannel->seqPlayer == &gSequencePlayers[0]) ? proxFadeVolume : 1);
                     if (seqChannel->seqPlayer->muted && (seqChannel->muteBehavior & MUTE_BEHAVIOR_SOFTEN) != 0) {
                         channelVolume *= seqChannel->seqPlayer->muteVolumeScale;
                     }

@@ -71,6 +71,7 @@ const LevelScript level_castle_grounds_entry[] = {
 		MARIO_POS(0x04, 180, -1539, -21, 7715),
 		OBJECT(MODEL_NONE, -155, 211, -6802, 0, 0, 0, (2 << 16), bhvMessagePanel),
 		OBJECT(MODEL_YOSHI, 1888, 247, -3469, 0, -150, 0, (1 << 24), bhvYoshiMessage),
+		OBJECT(MODEL_NONE, 0, 0, 0, 0, 0, 0, 0x00000000, bhvEarthSoundLoop),
 		OBJECT(MODEL_NONE, -6671, 265, -362, 0, 180, 0, 0x00000000, bhvTree),
 		OBJECT(MODEL_NONE, -5926, 183, 226, 0, 180, 0, 0x00000000, bhvTree),
 		OBJECT(MODEL_NONE, -6492, 136, 1211, 0, 180, 0, 0x00000000, bhvTree),

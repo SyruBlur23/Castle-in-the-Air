@@ -53,8 +53,8 @@ const LevelScript level_castle_inside_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, castle_inside_area_1),
-		WARP_NODE(31, LEVEL_CASTLE_GROUNDS, 0x04, 31, WARP_NO_CHECKPOINT),
-		WARP_NODE(32, LEVEL_CASTLE_GROUNDS, 0x04, 32, WARP_NO_CHECKPOINT),
+		WARP_NODE(31, LEVEL_CASTLE_GROUNDS, 4, 31, WARP_NO_CHECKPOINT),
+		WARP_NODE(32, LEVEL_CASTLE_GROUNDS, 4, 32, WARP_NO_CHECKPOINT),
 		WARP_NODE(33, LEVEL_CASTLE, 0x02, 35, WARP_NO_CHECKPOINT),
 		WARP_NODE(34, LEVEL_CASTLE, 0x02, 36, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_PM_DOUBLE_DOOR, -73, 3, 2054, 0, 0, 0, (31 << 16), bhvDoorWarp),
@@ -67,7 +67,7 @@ const LevelScript level_castle_inside_entry[] = {
 		OBJECT(MODEL_TOAD, 2700, 209, -812, 0, -45, 0, (4 << 24), bhvToadMessage),
 		TERRAIN(castle_inside_area_1_collision),
 		MACRO_OBJECTS(castle_inside_area_1_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_INSIDE_CASTLE),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_001_INSIDE_THE_PRINCESS_CASTLE),
 		SHOW_DIALOG(0x00, DIALOG_003),
 		TERRAIN_TYPE(TERRAIN_STONE),
 		/* Fast64 begin persistent block [area commands] */
@@ -101,7 +101,7 @@ const LevelScript level_castle_inside_entry[] = {
 		OBJECT(MODEL_NONE, 0, 1371, 700, 0, 180, 0, (0x01 << 16), bhvWarp),
 		TERRAIN(castle_inside_area_2_collision),
 		MACRO_OBJECTS(castle_inside_area_2_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_INSIDE_CASTLE),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_001_INSIDE_THE_PRINCESS_CASTLE),
 		TERRAIN_TYPE(TERRAIN_STONE),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */

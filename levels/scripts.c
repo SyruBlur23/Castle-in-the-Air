@@ -336,6 +336,9 @@ const LevelScript script_func_global_16[] = {
     LOAD_MODEL_FROM_GEO(MODEL_BOO_CASTLE,              boo_castle_geo),
     LOAD_MODEL_FROM_GEO(MODEL_LAKITU,                  lakitu_geo),
     LOAD_MODEL_FROM_GEO(MODEL_TOAD,                    toad_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_CLOCK_PENDULUM_SMALL,    CLOCK_PENDULUM_SMALL_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_CLOCK_MINUTE_SMALL,      CLOCK_MINUTE_SMALL_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_CLOCK_HOUR_SMALL,        CLOCK_HOUR_SMALL_geo),
     RETURN(),
 };
 

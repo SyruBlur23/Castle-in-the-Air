@@ -1307,6 +1307,9 @@ s32 init_level(void) {
         sound_banks_disable(SEQ_PLAYER_SFX, SOUND_BANKS_DISABLED_DURING_INTRO_CUTSCENE);
     }
 
+    extern f32 proxFadeVolume;
+    proxFadeVolume = 1.f;
+
 #ifdef PUPPYPRINT_DEBUG
     if (gInitLevelTime) {
         u32 totalTime = osGetCount() - gInitLevelTime;
