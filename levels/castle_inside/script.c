@@ -67,7 +67,7 @@ const LevelScript level_castle_inside_entry[] = {
 		OBJECT(MODEL_TOAD, 2700, 209, -812, 0, -45, 0, (4 << 24), bhvToadMessage),
 		TERRAIN(castle_inside_area_1_collision),
 		MACRO_OBJECTS(castle_inside_area_1_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_001_INSIDE_THE_PRINCESS_CASTLE),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_INSIDE_THE_PRINCESS_CASTLE),
 		SHOW_DIALOG(0x00, DIALOG_003),
 		TERRAIN_TYPE(TERRAIN_STONE),
 		/* Fast64 begin persistent block [area commands] */
@@ -101,7 +101,7 @@ const LevelScript level_castle_inside_entry[] = {
 		OBJECT(MODEL_NONE, 0, 1371, 700, 0, 180, 0, (0x01 << 16), bhvWarp),
 		TERRAIN(castle_inside_area_2_collision),
 		MACRO_OBJECTS(castle_inside_area_2_macro_objs),
-		SET_BACKGROUND_MUSIC(0x00, SEQ_001_INSIDE_THE_PRINCESS_CASTLE),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_INSIDE_THE_PRINCESS_CASTLE),
 		TERRAIN_TYPE(TERRAIN_STONE),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
