@@ -456,7 +456,7 @@ s32 act_reading_automatic_dialog(struct MarioState *m) {
             disable_time_stop();
             if (gNeverEnteredCastle == TRUE && gCurrLevelNum == LEVEL_CASTLE) {
                 gNeverEnteredCastle = FALSE;
-                play_cutscene_music(SEQUENCE_ARGS(0, SEQ_INSIDE_THE_PRINCESS_CASTLES));
+                play_cutscene_music(SEQUENCE_ARGS(0, SEQ_INSIDE_THE_PRINCESS_CASTLE));
             }
             if (m->prevAction == ACT_STAR_DANCE_WATER) {
                 set_mario_action(m, ACT_WATER_IDLE, 0); // 100c star?
