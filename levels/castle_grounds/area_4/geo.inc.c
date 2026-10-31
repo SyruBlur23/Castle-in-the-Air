@@ -359,8 +359,6 @@ const GeoLayout castle_grounds_area_4_geo[] = {
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -235, 3074, -1961, -90, 0, 180, castle_grounds_dl_Doors_005_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -1976, 367, -2941, 90, 0, 0, castle_grounds_dl_Doors_006_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -2130, 367, -2941, 0, 180, 0, castle_grounds_dl_Doors_007_mesh_layer_1),
-		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -5678, 262, 7010, 91, 40, 97, castle_grounds_dl_Doors_008_mesh_layer_1),
-		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -5763, 265, 6881, 0, 180, 0, castle_grounds_dl_Doors_009_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_OPAQUE, -81, 209, -8629, 91, -83, 95, castle_grounds_dl_Doors_010_mesh_layer_1),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_TRANSPARENT, -369, 178, 3053, 90, 0, -180, castle_grounds_dl_Fountain_Water_mesh_layer_5),
 		GEO_TRANSLATE_ROTATE_WITH_DL(LAYER_TRANSPARENT, -369, 178, 3053, 90, 0, -180, castle_grounds_dl_Paper_Mario_Castle_Grounds_mesh_layer_5),

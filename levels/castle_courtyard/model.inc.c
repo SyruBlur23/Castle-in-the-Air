@@ -74001,7 +74001,7 @@ Gfx mat_revert_castle_courtyard_dl_Roof_f3d_layer1_area1[] = {
 };
 
 Gfx mat_castle_courtyard_dl_Gold_f3d_layer1_area1[] = {
-	gsSPSetGeometryMode(G_FOG | G_TEXTURE_GEN_LINEAR | G_TEXTURE_GEN),
+	gsSPSetGeometryMode(G_TEXTURE_GEN_LINEAR | G_FOG | G_TEXTURE_GEN),
 	gsSPLightColor(LIGHT_1, 0xFFFFFFFF),
 	gsSPLightColor(LIGHT_2, 0x7F7F7FFF),
 	gsDPPipeSync(),
@@ -74025,7 +74025,7 @@ Gfx mat_castle_courtyard_dl_Gold_f3d_layer1_area1[] = {
 };
 
 Gfx mat_revert_castle_courtyard_dl_Gold_f3d_layer1_area1[] = {
-	gsSPClearGeometryMode(G_FOG | G_TEXTURE_GEN_LINEAR | G_TEXTURE_GEN),
+	gsSPClearGeometryMode(G_TEXTURE_GEN_LINEAR | G_FOG | G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsDPSetTextureLUT(G_TT_NONE),
@@ -74504,7 +74504,7 @@ Gfx mat_revert_castle_courtyard_dl_Crate_f3d_layer1_area1[] = {
 };
 
 Gfx mat_castle_courtyard_dl_Metal_layer1_area1[] = {
-	gsSPSetGeometryMode(G_FOG | G_TEXTURE_GEN_LINEAR | G_TEXTURE_GEN),
+	gsSPSetGeometryMode(G_TEXTURE_GEN_LINEAR | G_FOG | G_TEXTURE_GEN),
 	gsSPLightColor(LIGHT_1, 0xFFFFFFFF),
 	gsSPLightColor(LIGHT_2, 0x7F7F7FFF),
 	gsDPPipeSync(),
@@ -74524,7 +74524,7 @@ Gfx mat_castle_courtyard_dl_Metal_layer1_area1[] = {
 };
 
 Gfx mat_revert_castle_courtyard_dl_Metal_layer1_area1[] = {
-	gsSPClearGeometryMode(G_FOG | G_TEXTURE_GEN_LINEAR | G_TEXTURE_GEN),
+	gsSPClearGeometryMode(G_TEXTURE_GEN_LINEAR | G_FOG | G_TEXTURE_GEN),
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsDPSetCycleType(G_CYC_1CYCLE),
