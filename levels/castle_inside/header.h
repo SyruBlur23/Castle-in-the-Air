@@ -157,3 +157,6 @@ extern const LevelScript level_castle_inside_entry[];
 
 #include "levels/castle_inside/header.inc.h"
 #endif
+
+// AUTO PAINTING
+extern struct Painting castle_inside_goomba_battlefield_painting;

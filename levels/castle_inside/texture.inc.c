@@ -214,3 +214,13 @@ ALIGNED8 static const Texture inside_castle_seg7_texture_0701F800[] = {
 ALIGNED8 static const Texture inside_castle_seg7_texture_07020800[] = {
 #include "levels/castle_inside/40.rgba16.inc.c"
 };
+
+/* === AUTO_PAINTING_TEXTURE:castle_inside_goomba_battlefield_painting:BEGIN === */
+ALIGNED8 static const Texture castle_inside_goomba_battlefield_bottom_tex[] = {
+#include "levels/castle_inside/goomba_battlefield2.rgba16.inc.c"
+};
+
+ALIGNED8 static const Texture castle_inside_goomba_battlefield_top_tex[] = {
+#include "levels/castle_inside/goomba_battlefield1.rgba16.inc.c"
+};
+/* === AUTO_PAINTING_TEXTURE:castle_inside_goomba_battlefield_painting:END === */

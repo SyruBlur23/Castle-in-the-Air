@@ -18,6 +18,7 @@
 #include "area.h"
 #include "rendering_graph_node.h"
 #include "level_update.h"
+#include "paintings.h"
 #include "engine/geo_layout.h"
 #include "save_file.h"
 #include "level_table.h"
@@ -254,13 +255,14 @@ void load_area(s32 index) {
 
         geo_call_global_function_nodes(&gCurrentArea->graphNode->node, GEO_CONTEXT_AREA_LOAD);
 
-        extern f32 proxFadeVolume;
-        proxFadeVolume = 1.f;
+        gCurrentPaintingGroup = get_current_painting_group();
+        reset_all_paintings();
     }
 }
 
 void unload_area(void) {
     if (gCurrentArea != NULL) {
+        reset_all_paintings();
         unload_objects_from_area(0, gCurrentArea->index);
         geo_call_global_function_nodes(&gCurrentArea->graphNode->node, GEO_CONTEXT_AREA_UNLOAD);
 
@@ -477,4 +479,41 @@ void render_game(void) {
 #ifdef PUPPYPRINT_DEBUG
     puppyprint_render_profiler();
 #endif
+}
+
+/**
+ * Binary search a ROM table sorted by (level, area) for the current (level, area).
+ * Every record must start with u16 (level, area). When found, the matching record
+ * is left in buf and TRUE is returned. buf must be 16-aligned, and recordSize
+ * must be a multiple of 16.
+ */
+struct AreaKey {
+    u16 level;
+    u16 area;
+};
+
+void dma_read(u8 *dest, u8 *srcStart, u8 *srcEnd);
+s32 area_table_search(u8 *romStart, u8 *romEnd, u32 recordSize, void *buf) {
+    struct AreaKey *rec = buf;
+    s32 lo    = 0;
+    s32 hi    = (romEnd - romStart) / recordSize - 1;
+    s32 level = gCurrLevelNum;
+    s32 area  = gCurrAreaIndex;
+
+    while (lo <= hi) {
+        s32 mid = (lo + hi) >> 1;
+        u8 *src = romStart + mid * recordSize;
+
+        dma_read((u8 *) buf, src, src + recordSize);
+
+        if (rec->level == level && rec->area == area) {
+            return TRUE;
+        }
+        if (rec->level < level || (rec->level == level && rec->area < area)) {
+            lo = mid + 1;
+        } else {
+            hi = mid - 1;
+        }
+    }
+    return FALSE;
 }
