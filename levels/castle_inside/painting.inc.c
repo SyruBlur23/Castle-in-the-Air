@@ -497,3 +497,56 @@ Gfx non_ripple_dl[] = {
     gsSPVertex(static_painting_vertices, 8, 0),
     gsSPEndDisplayList(),
 };
+
+static const Vtx castle_inside_legacy_painting_vertices[] = {
+    {{{ -3046, -307, -3724}, 0, { -32, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -2742, -307, -4258}, 0, { 2012, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -2742, 0, -4258}, 0, { 2012, 0}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -3046, 0, -3724}, 0, { -32, 0}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -3046, 0, -3724}, 0, { -32, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -2742, 0, -4258}, 0, { 2012, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -2742, 307, -4258}, 0, { 2012, 0}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -3046, 307, -3724}, 0, { -32, 0}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1866, -307, -4258}, 0, { -32, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1562, -307, -3724}, 0, { 2012, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1562, 0, -3724}, 0, { 2012, 0}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1866, 0, -4258}, 0, { -32, 0}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1866, 0, -4258}, 0, { -32, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1562, 0, -3724}, 0, { 2012, 992}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1562, 307, -3724}, 0, { 2012, 0}, {0xff, 0xff, 0xff, 0xff}}},
+    {{{ -1866, 307, -4258}, 0, { -32, 0}, {0xff, 0xff, 0xff, 0xff}}},
+};
+
+const Gfx inside_castle_seg7_dl_070234C0[] = {
+    gsSPDisplayList(non_ripple_dl),
+    gsSPVertex(castle_inside_legacy_painting_vertices + 0, 8, 0),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, inside_castle_seg7_texture_0700D800),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, CALC_DXT(64, G_IM_SIZ_16b_BYTES)),
+    gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, inside_castle_seg7_texture_0700C800),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, CALC_DXT(64, G_IM_SIZ_16b_BYTES)),
+    gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_OFF),
+    gsDPPipeSync(),
+    gsDPSetCombineMode(G_CC_SHADE, G_CC_SHADE),
+    gsSPEndDisplayList(),
+};
+
+const Gfx inside_castle_seg7_dl_07023520[] = {
+    gsSPDisplayList(non_ripple_dl),
+    gsSPVertex(castle_inside_legacy_painting_vertices + 8, 8, 0),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, inside_castle_seg7_texture_0700D800),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, CALC_DXT(64, G_IM_SIZ_16b_BYTES)),
+    gsSP2Triangles(0, 1, 2, 0, 0, 2, 3, 0),
+    gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, inside_castle_seg7_texture_0700C800),
+    gsDPLoadSync(),
+    gsDPLoadBlock(G_TX_LOADTILE, 0, 0, 2047, CALC_DXT(64, G_IM_SIZ_16b_BYTES)),
+    gsSP2Triangles(4, 5, 6, 0, 4, 6, 7, 0),
+    gsSPTexture(0xFFFF, 0xFFFF, 0, G_TX_RENDERTILE, G_OFF),
+    gsDPPipeSync(),
+    gsDPSetCombineMode(G_CC_SHADE, G_CC_SHADE),
+    gsSPEndDisplayList(),
+};
