@@ -1,5 +1,5 @@
-Gfx castle_inside_dl_Blue_Streamer_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Blue_Streamer_ci4[] = {
+Gfx castle_inside_dl_Blue_Streamer_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Blue_Streamer_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -259,15 +259,15 @@ u8 castle_inside_dl_Blue_Streamer_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Blue_Streamer_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Blue_Streamer_pal_rgba16[] = {
+Gfx castle_inside_dl_Blue_Streamer_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Blue_Streamer_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x3f, 0x00, 0x21, 0x00, 0x35, 
 	0x00, 0x33, 0x00, 0x2b, 0x00, 0x7f, 0x00, 0x13, 
 	0x82, 0x01, 0x9b, 0x41, 0x30, 0x41, 
 };
 
-Gfx castle_inside_dl_Foliage_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Foliage_ci4[] = {
+Gfx castle_inside_dl_Foliage_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Foliage_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -399,15 +399,15 @@ u8 castle_inside_dl_Foliage_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Foliage_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Foliage_pal_rgba16[] = {
+Gfx castle_inside_dl_Foliage_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Foliage_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0x02, 0x41, 0x02, 0xc3, 0x03, 0x81, 
 	0x00, 0x01, 0x00, 0xc1, 0x01, 0x43, 0x01, 0xc1, 
 	0x03, 0xc1, 
 };
 
-Gfx castle_inside_dl_Foliage_Flowers_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Foliage_Flowers_ci4[] = {
+Gfx castle_inside_dl_Foliage_Flowers_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Foliage_Flowers_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -539,16 +539,16 @@ u8 castle_inside_dl_Foliage_Flowers_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Foliage_Flowers_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Foliage_Flowers_pal_rgba16[] = {
+Gfx castle_inside_dl_Foliage_Flowers_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Foliage_Flowers_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0xde, 0x1b, 0xf7, 0xbd, 0xf6, 0xe9, 
 	0xc4, 0xc9, 0xf6, 0x01, 0x1c, 0x81, 0x01, 0x01, 
 	0x00, 0x01, 0x94, 0x35, 0x52, 0x29, 0xc5, 0xb9, 
 	0x29, 0x1b, 
 };
 
-Gfx castle_inside_dl_Carpet_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Carpet_ci4[] = {
+Gfx castle_inside_dl_Carpet_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Carpet_ci4_rgba16[] = {
 	0x00, 0x01, 0x11, 0x11, 0x12, 0x01, 0x21, 0x21, 
 	0x12, 0x01, 0x12, 0x01, 0x01, 0x11, 0x02, 0x00, 
 	0x22, 0x01, 0x02, 0x01, 0x11, 0x11, 0x01, 0x10, 
@@ -616,8 +616,8 @@ u8 castle_inside_dl_Carpet_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Carpet_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Carpet_pal_rgba16[] = {
+Gfx castle_inside_dl_Carpet_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Carpet_pal_ci4_rgba16[] = {
 	0x98, 0x01, 0x78, 0x01, 0x68, 0x01, 0x70, 0x01, 
 	
 };
@@ -1277,8 +1277,8 @@ u8 castle_inside_dl_Lavender_Top_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_JP_Jolly_Roger_Bay_Left_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_JP_Jolly_Roger_Bay_Left_ci8[] = {
+Gfx castle_inside_dl_JP_Jolly_Roger_Bay_Left_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_JP_Jolly_Roger_Bay_Left_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x01, 0x02, 0x03, 0x02, 
 	0x04, 0x04, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 
 	0x01, 0x05, 0x05, 0x05, 0x05, 0x06, 0x06, 0x06, 
@@ -1538,8 +1538,8 @@ u8 castle_inside_dl_JP_Jolly_Roger_Bay_Left_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_JP_Jolly_Roger_Bay_Left_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_JP_Jolly_Roger_Bay_Left_pal_rgba16[] = {
+Gfx castle_inside_dl_JP_Jolly_Roger_Bay_Left_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_JP_Jolly_Roger_Bay_Left_pal_ci8_rgba16[] = {
 	0x01, 0xed, 0x01, 0xeb, 0x02, 0x77, 0x02, 0xbd, 
 	0x02, 0x31, 0x01, 0xab, 0x01, 0xa9, 0x01, 0xa7, 
 	0x06, 0xbf, 0x07, 0xbf, 0x06, 0x3f, 0x06, 0x7f, 
@@ -4450,8 +4450,8 @@ u8 castle_inside_dl_Wallpaper_Sky_YELLOW_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Wallpaper_Ceiling_STARS_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wallpaper_Ceiling_STARS_ci4[] = {
+Gfx castle_inside_dl_Wallpaper_Ceiling_STARS_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wallpaper_Ceiling_STARS_ci4_rgba16[] = {
 	0x00, 0x11, 0x22, 0x33, 0x33, 0x33, 0x11, 0x11, 
 	0x44, 0x22, 0x33, 0x55, 0x55, 0x66, 0x66, 0x66, 
 	0x00, 0x11, 0x22, 0x33, 0x33, 0x33, 0x11, 0x17, 
@@ -4519,16 +4519,16 @@ u8 castle_inside_dl_Wallpaper_Ceiling_STARS_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Wallpaper_Ceiling_STARS_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wallpaper_Ceiling_STARS_pal_rgba16[] = {
+Gfx castle_inside_dl_Wallpaper_Ceiling_STARS_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wallpaper_Ceiling_STARS_pal_ci4_rgba16[] = {
 	0x40, 0x17, 0x38, 0x17, 0x38, 0x19, 0x40, 0x19, 
 	0x30, 0x17, 0x48, 0x1b, 0x40, 0x1b, 0xb5, 0x05, 
 	0x48, 0x19, 0xb4, 0x87, 0x58, 0x1b, 0x48, 0x17, 
 	0x50, 0x1d, 
 };
 
-Gfx castle_inside_dl_Castle_Wall_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Castle_Wall_ci4[] = {
+Gfx castle_inside_dl_Castle_Wall_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Castle_Wall_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -4660,8 +4660,8 @@ u8 castle_inside_dl_Castle_Wall_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Castle_Wall_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Castle_Wall_pal_rgba16[] = {
+Gfx castle_inside_dl_Castle_Wall_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Castle_Wall_pal_ci4_rgba16[] = {
 	0x93, 0x47, 0x62, 0x41, 0x84, 0x17, 0x6b, 0x51, 
 	0x52, 0x89, 0xa5, 0x1f, 0xad, 0x63, 0x8c, 0x5b, 
 	0xb5, 0xa5, 0xa5, 0x21, 0x9c, 0xdf, 
@@ -4800,8 +4800,8 @@ u8 castle_inside_dl_Checkerboard_i8[] = {
 	
 };
 
-Gfx castle_inside_dl_Gray_Cobblestones_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Gray_Cobblestones_ci8[] = {
+Gfx castle_inside_dl_Gray_Cobblestones_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Gray_Cobblestones_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 
 	0x06, 0x01, 0x08, 0x02, 0x01, 0x01, 0x02, 0x01, 
 	0x07, 0x00, 0x09, 0x06, 0x0a, 0x0a, 0x0b, 0x0b, 
@@ -4933,8 +4933,8 @@ u8 castle_inside_dl_Gray_Cobblestones_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Gray_Cobblestones_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Gray_Cobblestones_pal_rgba16[] = {
+Gfx castle_inside_dl_Gray_Cobblestones_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Gray_Cobblestones_pal_ci8_rgba16[] = {
 	0x6b, 0x5b, 0x84, 0x21, 0x8c, 0x63, 0x5a, 0xd7, 
 	0x00, 0x01, 0x39, 0xcf, 0x7b, 0xdf, 0x73, 0x9d, 
 	0x9c, 0xe7, 0x39, 0xcd, 0x52, 0x95, 0x63, 0x19, 
@@ -4949,8 +4949,8 @@ u8 castle_inside_dl_Gray_Cobblestones_pal_rgba16[] = {
 	0x42, 0x51, 
 };
 
-Gfx castle_inside_dl_Sun_Carpet_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Sun_Carpet_ci8[] = {
+Gfx castle_inside_dl_Sun_Carpet_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Sun_Carpet_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -5082,8 +5082,8 @@ u8 castle_inside_dl_Sun_Carpet_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Sun_Carpet_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Sun_Carpet_pal_rgba16[] = {
+Gfx castle_inside_dl_Sun_Carpet_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Sun_Carpet_pal_ci8_rgba16[] = {
 	0xe5, 0x40, 0xe5, 0x41, 0xee, 0x01, 0xee, 0x41, 
 	0xff, 0x81, 0xff, 0xc1, 0xf7, 0x81, 0xa4, 0xc7, 
 	0x4a, 0x4f, 0x31, 0x8f, 0x39, 0x91, 0x42, 0x0f, 
@@ -5113,8 +5113,8 @@ u8 castle_inside_dl_Sun_Carpet_pal_rgba16[] = {
 	0xc9, 0x2f, 0xfd, 0x01, 0x60, 0xad, 
 };
 
-Gfx castle_inside_dl_Moon_Carpet_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Moon_Carpet_ci4[] = {
+Gfx castle_inside_dl_Moon_Carpet_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Moon_Carpet_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x01, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 
@@ -5182,8 +5182,8 @@ u8 castle_inside_dl_Moon_Carpet_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Moon_Carpet_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Moon_Carpet_pal_rgba16[] = {
+Gfx castle_inside_dl_Moon_Carpet_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Moon_Carpet_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0xad, 0x6a, 0x94, 0xa5, 0xad, 0x6b, 
 	0xd6, 0xb5, 0xce, 0x73, 0x10, 0x85, 0x21, 0x09, 
 	0x30, 0x13, 0xb4, 0x87, 0xb5, 0x05, 0x9c, 0xe7, 
@@ -5191,8 +5191,8 @@ u8 castle_inside_dl_Moon_Carpet_pal_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_B_Roll_Bricks_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_B_Roll_Bricks_ci8[] = {
+Gfx castle_inside_dl_B_Roll_Bricks_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_B_Roll_Bricks_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x03, 0x03, 0x03, 0x03, 0x03, 
 	0x03, 0x03, 0x03, 0x03, 0x03, 0x03, 0x04, 0x04, 
 	0x04, 0x04, 0x05, 0x06, 0x06, 0x05, 0x05, 0x05, 
@@ -5324,8 +5324,8 @@ u8 castle_inside_dl_B_Roll_Bricks_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_B_Roll_Bricks_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_B_Roll_Bricks_pal_rgba16[] = {
+Gfx castle_inside_dl_B_Roll_Bricks_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_B_Roll_Bricks_pal_ci8_rgba16[] = {
 	0x7a, 0xd1, 0x72, 0x4d, 0x59, 0x05, 0x69, 0x87, 
 	0x7a, 0x4d, 0x69, 0x47, 0x71, 0x45, 0x49, 0x01, 
 	0x28, 0x01, 0x40, 0x01, 0x38, 0x01, 0x61, 0x85, 
@@ -6377,8 +6377,8 @@ u8 castle_inside_dl_Pillar2_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Wood_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wood_ci8[] = {
+Gfx castle_inside_dl_Wood_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wood_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x02, 0x02, 0x03, 0x04, 0x05, 
 	0x06, 0x07, 0x02, 0x08, 0x09, 0x01, 0x04, 0x0a, 
 	0x0a, 0x0a, 0x08, 0x01, 0x08, 0x03, 0x03, 0x04, 
@@ -6510,8 +6510,8 @@ u8 castle_inside_dl_Wood_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Wood_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wood_pal_rgba16[] = {
+Gfx castle_inside_dl_Wood_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wood_pal_ci8_rgba16[] = {
 	0x81, 0x41, 0x91, 0x81, 0xaa, 0x41, 0x99, 0xc1, 
 	0x91, 0x41, 0x89, 0x01, 0x99, 0x41, 0x99, 0x81, 
 	0xaa, 0x01, 0x91, 0x01, 0xa2, 0x01, 0xa1, 0xc1, 
@@ -6528,8 +6528,8 @@ u8 castle_inside_dl_Wood_pal_rgba16[] = {
 	0x8a, 0x01, 0xa1, 0x81, 
 };
 
-Gfx castle_inside_dl_Cabinet_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Cabinet_ci8[] = {
+Gfx castle_inside_dl_Cabinet_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Cabinet_ci8_rgba16[] = {
 	0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 
 	0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x00, 
 	0x00, 0x02, 0x00, 0x00, 0x03, 0x04, 0x05, 0x05, 
@@ -6661,8 +6661,8 @@ u8 castle_inside_dl_Cabinet_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Cabinet_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Cabinet_pal_rgba16[] = {
+Gfx castle_inside_dl_Cabinet_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Cabinet_pal_ci8_rgba16[] = {
 	0xb2, 0x81, 0xb2, 0xc1, 0xb2, 0x41, 0xa2, 0x41, 
 	0xa2, 0x01, 0x9a, 0x01, 0x91, 0xc1, 0xaa, 0x01, 
 	0xaa, 0x41, 0xaa, 0x81, 0x89, 0x01, 0x91, 0x41, 
@@ -7105,8 +7105,8 @@ u8 castle_inside_dl_Star_Vertex_i8[] = {
 	
 };
 
-Gfx castle_inside_dl_Bookshelf_Side_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bookshelf_Side_ci8[] = {
+Gfx castle_inside_dl_Bookshelf_Side_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bookshelf_Side_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x00, 0x00, 0x00, 0x00, 0x02, 
 	0x00, 0x02, 0x02, 0x02, 0x02, 0x01, 0x01, 0x00, 
 	0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x03, 
@@ -7366,8 +7366,8 @@ u8 castle_inside_dl_Bookshelf_Side_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Bookshelf_Side_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bookshelf_Side_pal_rgba16[] = {
+Gfx castle_inside_dl_Bookshelf_Side_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bookshelf_Side_pal_ci8_rgba16[] = {
 	0x00, 0x03, 0x00, 0x01, 0x08, 0x43, 0x08, 0x03, 
 	0x08, 0x45, 0x08, 0x47, 0x10, 0x87, 0x10, 0x47, 
 	0x10, 0x89, 0x18, 0xc9, 0x18, 0xcb, 0x10, 0x45, 
@@ -7906,8 +7906,8 @@ u8 castle_inside_dl_Bookshelf_Front_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Bookshelf_Cans_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bookshelf_Cans_ci8[] = {
+Gfx castle_inside_dl_Bookshelf_Cans_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bookshelf_Cans_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x04, 0x06, 
 	0x07, 0x06, 0x08, 0x06, 0x09, 0x05, 0x0a, 0x0b, 
 	0x0c, 0x0d, 0x0e, 0x0e, 0x0f, 0x0e, 0x0e, 0x0b, 
@@ -8167,8 +8167,8 @@ u8 castle_inside_dl_Bookshelf_Cans_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Bookshelf_Cans_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bookshelf_Cans_pal_rgba16[] = {
+Gfx castle_inside_dl_Bookshelf_Cans_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bookshelf_Cans_pal_ci8_rgba16[] = {
 	0x6b, 0x1d, 0x39, 0x93, 0x52, 0x9d, 0x4a, 0x17, 
 	0x52, 0x59, 0x4a, 0x15, 0x62, 0xdf, 0x52, 0x17, 
 	0x63, 0x21, 0x5a, 0xdd, 0x41, 0xd5, 0x52, 0x9b, 
@@ -8982,8 +8982,8 @@ u8 castle_inside_dl_Stove_Front_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Red_And_Blue_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Red_And_Blue_ci4[] = {
+Gfx castle_inside_dl_Books_Red_And_Blue_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Red_And_Blue_ci4_rgba16[] = {
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
 	0x45, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x54, 
 	0x01, 0x12, 0x33, 0x33, 0x33, 0x33, 0x21, 0x10, 
@@ -9051,16 +9051,16 @@ u8 castle_inside_dl_Books_Red_And_Blue_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Red_And_Blue_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Red_And_Blue_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Red_And_Blue_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Red_And_Blue_pal_ci4_rgba16[] = {
 	0x09, 0x0f, 0x09, 0x95, 0x94, 0x53, 0xb5, 0x57, 
 	0x48, 0x43, 0x70, 0x85, 0x12, 0x5b, 0x89, 0x0b, 
 	0x7a, 0x81, 0x9b, 0x01, 0xab, 0xc9, 0x00, 0xcb, 
 	0x30, 0x03, 0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Books_Top_Red_And_Blue_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Top_Red_And_Blue_ci4[] = {
+Gfx castle_inside_dl_Books_Top_Red_And_Blue_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Top_Red_And_Blue_ci4_rgba16[] = {
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
 	0x45, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x54, 
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
@@ -9128,14 +9128,14 @@ u8 castle_inside_dl_Books_Top_Red_And_Blue_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Top_Red_And_Blue_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Top_Red_And_Blue_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Top_Red_And_Blue_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Top_Red_And_Blue_pal_ci4_rgba16[] = {
 	0x09, 0x0f, 0x09, 0x95, 0x94, 0x53, 0xb5, 0x57, 
 	0x48, 0x43, 0x70, 0x85, 
 };
 
-Gfx castle_inside_dl_Books_Bottom_Red_And_Blue_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Bottom_Red_And_Blue_ci4[] = {
+Gfx castle_inside_dl_Books_Bottom_Red_And_Blue_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Bottom_Red_And_Blue_ci4_rgba16[] = {
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
 	0x45, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x54, 
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
@@ -9203,15 +9203,15 @@ u8 castle_inside_dl_Books_Bottom_Red_And_Blue_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Bottom_Red_And_Blue_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Bottom_Red_And_Blue_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Bottom_Red_And_Blue_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Bottom_Red_And_Blue_pal_ci4_rgba16[] = {
 	0x09, 0x0f, 0x09, 0x95, 0x94, 0x53, 0xb5, 0x57, 
 	0x48, 0x43, 0x70, 0x85, 0x00, 0xcb, 0x30, 0x03, 
 	0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Books_Side_Red_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Red_ci4[] = {
+Gfx castle_inside_dl_Books_Side_Red_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Red_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -9279,13 +9279,13 @@ u8 castle_inside_dl_Books_Side_Red_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Side_Red_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Red_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Side_Red_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Red_pal_ci4_rgba16[] = {
 	0x48, 0x43, 0x7a, 0x81, 0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Books_Side_Blue_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Blue_ci4[] = {
+Gfx castle_inside_dl_Books_Side_Blue_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Blue_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -9353,13 +9353,13 @@ u8 castle_inside_dl_Books_Side_Blue_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Side_Blue_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Blue_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Side_Blue_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Blue_pal_ci4_rgba16[] = {
 	0x09, 0x0f, 0x7a, 0x81, 0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Books_Pink_And_Green_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Pink_And_Green_ci8[] = {
+Gfx castle_inside_dl_Books_Pink_And_Green_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Pink_And_Green_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x02, 0x03, 0x03, 0x03, 0x03, 
 	0x03, 0x03, 0x03, 0x03, 0x02, 0x02, 0x01, 0x00, 
 	0x04, 0x05, 0x02, 0x02, 0x03, 0x03, 0x03, 0x03, 
@@ -9491,8 +9491,8 @@ u8 castle_inside_dl_Books_Pink_And_Green_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Pink_And_Green_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Pink_And_Green_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Pink_And_Green_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Pink_And_Green_pal_ci8_rgba16[] = {
 	0x11, 0x03, 0x21, 0xc5, 0x94, 0x53, 0xb5, 0x57, 
 	0x81, 0x59, 0xa9, 0x5b, 0x32, 0x89, 0xb9, 0xdf, 
 	0x7a, 0x81, 0x9b, 0x01, 0xab, 0xc9, 0xb1, 0x1f, 
@@ -9500,8 +9500,8 @@ u8 castle_inside_dl_Books_Pink_And_Green_pal_rgba16[] = {
 	0x60, 0xd7, 0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Books_Top_Pink_And_Green_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Top_Pink_And_Green_ci4[] = {
+Gfx castle_inside_dl_Books_Top_Pink_And_Green_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Top_Pink_And_Green_ci4_rgba16[] = {
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
 	0x45, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x54, 
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
@@ -9569,14 +9569,14 @@ u8 castle_inside_dl_Books_Top_Pink_And_Green_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Top_Pink_And_Green_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Top_Pink_And_Green_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Top_Pink_And_Green_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Top_Pink_And_Green_pal_ci4_rgba16[] = {
 	0x11, 0x03, 0x21, 0xc5, 0x94, 0x53, 0xb5, 0x57, 
 	0x81, 0x59, 0xa9, 0x5b, 
 };
 
-Gfx castle_inside_dl_Books_Bottom_Pink_And_Green_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Bottom_Pink_And_Green_ci4[] = {
+Gfx castle_inside_dl_Books_Bottom_Pink_And_Green_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Bottom_Pink_And_Green_ci4_rgba16[] = {
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
 	0x45, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x54, 
 	0x01, 0x22, 0x33, 0x33, 0x33, 0x33, 0x22, 0x10, 
@@ -9644,15 +9644,15 @@ u8 castle_inside_dl_Books_Bottom_Pink_And_Green_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Bottom_Pink_And_Green_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Bottom_Pink_And_Green_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Bottom_Pink_And_Green_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Bottom_Pink_And_Green_pal_ci4_rgba16[] = {
 	0x11, 0x03, 0x21, 0xc5, 0x94, 0x53, 0xb5, 0x57, 
 	0x81, 0x59, 0xa9, 0x5b, 0x08, 0xc1, 0x60, 0xd7, 
 	0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Books_Side_Pink_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Pink_ci4[] = {
+Gfx castle_inside_dl_Books_Side_Pink_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Pink_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -9720,13 +9720,13 @@ u8 castle_inside_dl_Books_Side_Pink_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Side_Pink_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Pink_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Side_Pink_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Pink_pal_ci4_rgba16[] = {
 	0x81, 0x59, 0xb1, 0x1f, 0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Books_Side_Green_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Green_ci4[] = {
+Gfx castle_inside_dl_Books_Side_Green_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Green_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -9794,13 +9794,13 @@ u8 castle_inside_dl_Books_Side_Green_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Books_Side_Green_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Books_Side_Green_pal_rgba16[] = {
+Gfx castle_inside_dl_Books_Side_Green_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Books_Side_Green_pal_ci4_rgba16[] = {
 	0x11, 0x03, 0x7a, 0x81, 0x51, 0x83, 
 };
 
-Gfx castle_inside_dl_Bridge_Stones_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bridge_Stones_ci8[] = {
+Gfx castle_inside_dl_Bridge_Stones_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bridge_Stones_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 
 	0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0d, 0x0e, 
 	0x03, 0x0f, 0x0f, 0x10, 0x11, 0x12, 0x12, 0x13, 
@@ -9932,8 +9932,8 @@ u8 castle_inside_dl_Bridge_Stones_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Bridge_Stones_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bridge_Stones_pal_rgba16[] = {
+Gfx castle_inside_dl_Bridge_Stones_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bridge_Stones_pal_ci8_rgba16[] = {
 	0x7b, 0x63, 0x8b, 0xdf, 0x6b, 0x59, 0x53, 0x19, 
 	0x43, 0x19, 0x31, 0x4b, 0x41, 0x95, 0x53, 0x1b, 
 	0x63, 0x1b, 0x52, 0x95, 0x52, 0x99, 0x63, 0x59, 
@@ -9967,8 +9967,8 @@ u8 castle_inside_dl_Bridge_Stones_pal_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Sand_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Sand_ci8[] = {
+Gfx castle_inside_dl_Sand_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Sand_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x02, 0x01, 0x00, 0x03, 0x04, 
 	0x04, 0x05, 0x06, 0x07, 0x01, 0x08, 0x07, 0x06, 
 	0x03, 0x03, 0x06, 0x09, 0x02, 0x02, 0x02, 0x00, 
@@ -10100,8 +10100,8 @@ u8 castle_inside_dl_Sand_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Sand_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Sand_pal_rgba16[] = {
+Gfx castle_inside_dl_Sand_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Sand_pal_ci8_rgba16[] = {
 	0x9b, 0xc7, 0x9b, 0x81, 0x9b, 0x41, 0xab, 0xcd, 
 	0xb4, 0x53, 0xb4, 0x4f, 0xab, 0xcb, 0xab, 0xc9, 
 	0x9b, 0x85, 0xab, 0x89, 0xb4, 0x0f, 0x8b, 0x81, 
@@ -11154,8 +11154,8 @@ u8 castle_inside_dl_PM_Window_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Kelp_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Kelp_ci8[] = {
+Gfx castle_inside_dl_Kelp_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Kelp_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -11415,8 +11415,8 @@ u8 castle_inside_dl_Kelp_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Kelp_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Kelp_pal_rgba16[] = {
+Gfx castle_inside_dl_Kelp_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Kelp_pal_ci8_rgba16[] = {
 	0x00, 0x00, 0xb6, 0x67, 0x64, 0xcb, 0x6d, 0x4d, 
 	0x6b, 0xcf, 0x7d, 0x0b, 0x8d, 0x49, 0x6c, 0x09, 
 	0x5c, 0x4b, 0x43, 0x09, 0x75, 0x4b, 0x6b, 0x89, 
@@ -12994,8 +12994,8 @@ u8 castle_inside_dl_Snowman_Land_Right_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Wallpaper_Sky_NIGHT_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wallpaper_Sky_NIGHT_ci8[] = {
+Gfx castle_inside_dl_Wallpaper_Sky_NIGHT_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wallpaper_Sky_NIGHT_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -13255,8 +13255,8 @@ u8 castle_inside_dl_Wallpaper_Sky_NIGHT_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Wallpaper_Sky_NIGHT_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wallpaper_Sky_NIGHT_pal_rgba16[] = {
+Gfx castle_inside_dl_Wallpaper_Sky_NIGHT_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wallpaper_Sky_NIGHT_pal_ci8_rgba16[] = {
 	0x00, 0x01, 0x31, 0x43, 0xb4, 0x87, 0xb5, 0x05, 
 	0x00, 0x41, 0x00, 0x03, 0x00, 0x83, 0x08, 0x01, 
 	0x31, 0xc5, 0x10, 0x05, 0x18, 0x07, 0x31, 0xc7, 
@@ -14312,8 +14312,8 @@ u8 castle_inside_dl_Beatrice_Window_Bottom_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Fence_Railing_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Fence_Railing_ci8[] = {
+Gfx castle_inside_dl_Fence_Railing_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Fence_Railing_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -14445,8 +14445,8 @@ u8 castle_inside_dl_Fence_Railing_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Fence_Railing_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Fence_Railing_pal_rgba16[] = {
+Gfx castle_inside_dl_Fence_Railing_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Fence_Railing_pal_ci8_rgba16[] = {
 	0x72, 0x08, 0xb3, 0x4f, 0xab, 0x0f, 0xab, 0x0d, 
 	0xbb, 0x4f, 0xc3, 0x8f, 0xbb, 0x8f, 0xcb, 0xd1, 
 	0xb3, 0x0f, 0x9a, 0xcd, 0xe5, 0x1d, 0xed, 0x5f, 
@@ -14479,8 +14479,8 @@ u8 castle_inside_dl_Fence_Railing_pal_rgba16[] = {
 	0xcd, 0xf5, 0x29, 0x4d, 
 };
 
-Gfx castle_inside_dl_Dark_Gray_Stones_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Dark_Gray_Stones_ci4[] = {
+Gfx castle_inside_dl_Dark_Gray_Stones_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Dark_Gray_Stones_ci4_rgba16[] = {
 	0x01, 0x10, 0x00, 0x02, 0x23, 0x33, 0x20, 0x11, 
 	0x02, 0x23, 0x33, 0x22, 0x23, 0x44, 0x20, 0x00, 
 	0x01, 0x11, 0x11, 0x02, 0x23, 0x33, 0x20, 0x10, 
@@ -14548,15 +14548,15 @@ u8 castle_inside_dl_Dark_Gray_Stones_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Dark_Gray_Stones_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Dark_Gray_Stones_pal_rgba16[] = {
+Gfx castle_inside_dl_Dark_Gray_Stones_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Dark_Gray_Stones_pal_ci4_rgba16[] = {
 	0x4a, 0x53, 0x42, 0x11, 0x5a, 0xd7, 0x6b, 0x5b, 
 	0x73, 0x9d, 0x6b, 0x9d, 0x74, 0x21, 0x31, 0x8d, 
 	0x84, 0x21, 0x8c, 0x63, 0x84, 0x63, 
 };
 
-Gfx castle_inside_dl_Bowl_Vertex_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bowl_Vertex_ci4[] = {
+Gfx castle_inside_dl_Bowl_Vertex_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bowl_Vertex_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -14624,14 +14624,14 @@ u8 castle_inside_dl_Bowl_Vertex_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Bowl_Vertex_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Bowl_Vertex_pal_rgba16[] = {
+Gfx castle_inside_dl_Bowl_Vertex_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Bowl_Vertex_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0xc6, 0xf7, 0xd7, 0x39, 0xff, 0xff, 
 	0xad, 0xf1, 0x9d, 0x6d, 
 };
 
-Gfx castle_inside_dl_Rusty_Pot_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Rusty_Pot_ci8[] = {
+Gfx castle_inside_dl_Rusty_Pot_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Rusty_Pot_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -14763,8 +14763,8 @@ u8 castle_inside_dl_Rusty_Pot_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Rusty_Pot_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Rusty_Pot_pal_rgba16[] = {
+Gfx castle_inside_dl_Rusty_Pot_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Rusty_Pot_pal_ci8_rgba16[] = {
 	0x00, 0x00, 0x81, 0xc7, 0x92, 0x8b, 0x7a, 0x07, 
 	0x8a, 0x07, 0x9a, 0x49, 0x81, 0xc5, 0x71, 0x83, 
 	0x8a, 0x8b, 0x71, 0x85, 0x79, 0xc7, 0x69, 0x43, 
@@ -14810,8 +14810,8 @@ u8 castle_inside_dl_Rusty_Pot_pal_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_PM_Window_Long_NIGHT_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_PM_Window_Long_NIGHT_ci4[] = {
+Gfx castle_inside_dl_PM_Window_Long_NIGHT_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_PM_Window_Long_NIGHT_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -15071,15 +15071,15 @@ u8 castle_inside_dl_PM_Window_Long_NIGHT_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_PM_Window_Long_NIGHT_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_PM_Window_Long_NIGHT_pal_rgba16[] = {
+Gfx castle_inside_dl_PM_Window_Long_NIGHT_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_PM_Window_Long_NIGHT_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0x8b, 0x49, 0xc5, 0xa7, 0x08, 0x45, 
 	0xce, 0x15, 0x93, 0xc1, 0xce, 0x51, 0xac, 0x9b, 
 	0x18, 0x47, 
 };
 
-Gfx castle_inside_dl_Mushroom_Logo_GOLD_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Mushroom_Logo_GOLD_ci4[] = {
+Gfx castle_inside_dl_Mushroom_Logo_GOLD_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Mushroom_Logo_GOLD_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 0x11, 
@@ -15211,14 +15211,14 @@ u8 castle_inside_dl_Mushroom_Logo_GOLD_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Mushroom_Logo_GOLD_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Mushroom_Logo_GOLD_pal_rgba16[] = {
+Gfx castle_inside_dl_Mushroom_Logo_GOLD_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Mushroom_Logo_GOLD_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x40, 0xff, 0x6d, 0xdd, 0x8b, 
 	0xbc, 0x81, 
 };
 
-Gfx castle_inside_dl_Candelabra_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Candelabra_ci4[] = {
+Gfx castle_inside_dl_Candelabra_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Candelabra_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -15254,15 +15254,15 @@ u8 castle_inside_dl_Candelabra_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Candelabra_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Candelabra_pal_rgba16[] = {
+Gfx castle_inside_dl_Candelabra_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Candelabra_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0xcd, 0x79, 0xe7, 0x39, 0xae, 0x79, 
 	0xf7, 0x0d, 0x59, 0x41, 0x7a, 0x01, 0xa3, 0x01, 
 	
 };
 
-Gfx castle_inside_dl_Big_Small_Beach_Left_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Big_Small_Beach_Left_ci8[] = {
+Gfx castle_inside_dl_Big_Small_Beach_Left_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Big_Small_Beach_Left_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x01, 0x00, 0x02, 0x00, 0x00, 
 	0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 
 	0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 
@@ -15522,8 +15522,8 @@ u8 castle_inside_dl_Big_Small_Beach_Left_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Big_Small_Beach_Left_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Big_Small_Beach_Left_pal_rgba16[] = {
+Gfx castle_inside_dl_Big_Small_Beach_Left_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Big_Small_Beach_Left_pal_ci8_rgba16[] = {
 	0x91, 0x83, 0x69, 0x03, 0xd2, 0x81, 0xf4, 0x83, 
 	0xfd, 0x83, 0xfc, 0x01, 0xfc, 0x41, 0xfc, 0xc1, 
 	0xfd, 0x03, 0xf3, 0x01, 0xf3, 0xc1, 0x40, 0x83, 
@@ -15575,8 +15575,8 @@ u8 castle_inside_dl_Big_Small_Beach_Left_pal_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Big_Small_Beach_Right_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Big_Small_Beach_Right_ci8[] = {
+Gfx castle_inside_dl_Big_Small_Beach_Right_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Big_Small_Beach_Right_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -15836,8 +15836,8 @@ u8 castle_inside_dl_Big_Small_Beach_Right_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Big_Small_Beach_Right_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Big_Small_Beach_Right_pal_rgba16[] = {
+Gfx castle_inside_dl_Big_Small_Beach_Right_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Big_Small_Beach_Right_pal_ci8_rgba16[] = {
 	0x69, 0x03, 0x91, 0x83, 0xf4, 0x83, 0xfc, 0x41, 
 	0xfc, 0xc1, 0xfd, 0x03, 0xfc, 0x01, 0xeb, 0x41, 
 	0xd2, 0x81, 0x40, 0x83, 0xf3, 0x01, 0x10, 0x41, 
@@ -15892,8 +15892,8 @@ u8 castle_inside_dl_Big_Small_Beach_Right_pal_rgba16[] = {
 	0x79, 0x83, 0xfe, 0x89, 
 };
 
-Gfx castle_inside_dl_Tall_Tall_Mountain_Left_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Tall_Tall_Mountain_Left_ci8[] = {
+Gfx castle_inside_dl_Tall_Tall_Mountain_Left_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Tall_Tall_Mountain_Left_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -16153,8 +16153,8 @@ u8 castle_inside_dl_Tall_Tall_Mountain_Left_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Tall_Tall_Mountain_Left_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Tall_Tall_Mountain_Left_pal_rgba16[] = {
+Gfx castle_inside_dl_Tall_Tall_Mountain_Left_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Tall_Tall_Mountain_Left_pal_ci8_rgba16[] = {
 	0x71, 0x41, 0x81, 0x01, 0xec, 0x41, 0xfe, 0xc1, 
 	0xfd, 0x01, 0xfd, 0x41, 0xfd, 0x81, 0xfd, 0xc1, 
 	0xfe, 0x41, 0xfe, 0x01, 0xfc, 0xc1, 0xc3, 0x81, 
@@ -17769,8 +17769,8 @@ u8 castle_inside_dl_Wet_Dry_World_Down_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Pitcher_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Pitcher_ci4[] = {
+Gfx castle_inside_dl_Pitcher_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Pitcher_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -17838,14 +17838,14 @@ u8 castle_inside_dl_Pitcher_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Pitcher_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Pitcher_pal_rgba16[] = {
+Gfx castle_inside_dl_Pitcher_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Pitcher_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0x66, 0x79, 0x8f, 0x7f, 0x56, 0x37, 
 	0x1d, 0xb5, 0x35, 0xf7, 0xb7, 0x7f, 
 };
 
-Gfx castle_inside_dl_Teacup_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Teacup_ci4[] = {
+Gfx castle_inside_dl_Teacup_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Teacup_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -17865,14 +17865,14 @@ u8 castle_inside_dl_Teacup_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Teacup_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Teacup_pal_rgba16[] = {
+Gfx castle_inside_dl_Teacup_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Teacup_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0xb7, 0x7f, 0x1d, 0xb5, 0x35, 0xf7, 
 	0x66, 0x79, 0x8f, 0x7f, 0x56, 0x37, 
 };
 
-Gfx castle_inside_dl_Soup_Bowl_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Soup_Bowl_ci4[] = {
+Gfx castle_inside_dl_Soup_Bowl_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Soup_Bowl_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x12, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -17940,8 +17940,8 @@ u8 castle_inside_dl_Soup_Bowl_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Soup_Bowl_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Soup_Bowl_pal_rgba16[] = {
+Gfx castle_inside_dl_Soup_Bowl_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Soup_Bowl_pal_ci4_rgba16[] = {
 	0x00, 0x00, 0x56, 0x37, 0x66, 0x79, 0xb7, 0x7f, 
 	0x35, 0xf7, 0x1d, 0xb5, 0x8f, 0x7f, 
 };
@@ -19374,8 +19374,8 @@ u8 castle_inside_dl_Wall_Interior_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Cabinet_Fancy_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Cabinet_Fancy_ci4[] = {
+Gfx castle_inside_dl_Cabinet_Fancy_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Cabinet_Fancy_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -19507,14 +19507,14 @@ u8 castle_inside_dl_Cabinet_Fancy_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Cabinet_Fancy_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Cabinet_Fancy_pal_rgba16[] = {
+Gfx castle_inside_dl_Cabinet_Fancy_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Cabinet_Fancy_pal_ci4_rgba16[] = {
 	0xb5, 0x65, 0xc5, 0xeb, 0xff, 0xf9, 0xef, 0x73, 
 	0xde, 0xf1, 0xce, 0x6f, 
 };
 
-Gfx castle_inside_dl_Carpet_Pink_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Carpet_Pink_ci4[] = {
+Gfx castle_inside_dl_Carpet_Pink_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Carpet_Pink_ci4_rgba16[] = {
 	0x00, 0x00, 0x12, 0x11, 0x22, 0x22, 0x21, 0x21, 
 	0x00, 0x21, 0x10, 0x01, 0x11, 0x22, 0x11, 0x02, 
 	0x12, 0x12, 0x11, 0x11, 0x02, 0x02, 0x12, 0x22, 
@@ -19582,14 +19582,14 @@ u8 castle_inside_dl_Carpet_Pink_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Carpet_Pink_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Carpet_Pink_pal_rgba16[] = {
+Gfx castle_inside_dl_Carpet_Pink_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Carpet_Pink_pal_ci4_rgba16[] = {
 	0xba, 0xe7, 0xd3, 0xef, 0xca, 0xeb, 0xc2, 0xa9, 
 	
 };
 
-Gfx castle_inside_dl_Chocolate_Cake_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chocolate_Cake_ci4[] = {
+Gfx castle_inside_dl_Chocolate_Cake_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chocolate_Cake_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -19609,13 +19609,13 @@ u8 castle_inside_dl_Chocolate_Cake_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Chocolate_Cake_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chocolate_Cake_pal_rgba16[] = {
+Gfx castle_inside_dl_Chocolate_Cake_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chocolate_Cake_pal_ci4_rgba16[] = {
 	0x41, 0x05, 0x51, 0x87, 0x59, 0x87, 
 };
 
-Gfx castle_inside_dl_Grate_Fence_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Grate_Fence_ci8[] = {
+Gfx castle_inside_dl_Grate_Fence_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Grate_Fence_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x02, 0x03, 
 	0x04, 0x05, 0x06, 0x07, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x09, 0x0a, 
@@ -19747,8 +19747,8 @@ u8 castle_inside_dl_Grate_Fence_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Grate_Fence_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Grate_Fence_pal_rgba16[] = {
+Gfx castle_inside_dl_Grate_Fence_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Grate_Fence_pal_ci8_rgba16[] = {
 	0x08, 0x42, 0x10, 0x43, 0x20, 0xc7, 0x39, 0x8f, 
 	0x52, 0x57, 0x4a, 0x55, 0x29, 0x4d, 0x10, 0x42, 
 	0x10, 0x85, 0x21, 0x09, 0x41, 0xd1, 0x52, 0x97, 
@@ -19765,8 +19765,8 @@ u8 castle_inside_dl_Grate_Fence_pal_rgba16[] = {
 	0x73, 0x9f, 0x29, 0x09, 0x28, 0xc9, 
 };
 
-Gfx castle_inside_dl_Ornate_Stone_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Ornate_Stone_ci8[] = {
+Gfx castle_inside_dl_Ornate_Stone_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Ornate_Stone_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -19898,8 +19898,8 @@ u8 castle_inside_dl_Ornate_Stone_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Ornate_Stone_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Ornate_Stone_pal_rgba16[] = {
+Gfx castle_inside_dl_Ornate_Stone_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Ornate_Stone_pal_ci8_rgba16[] = {
 	0x00, 0x01, 0x10, 0x01, 0x10, 0x85, 0x00, 0x81, 
 	0x21, 0x05, 0x21, 0x09, 0x21, 0x0b, 0x29, 0x4b, 
 	0x39, 0x4f, 0x39, 0xcf, 0x39, 0xd3, 0x29, 0x09, 
@@ -23027,8 +23027,8 @@ u8 castle_inside_dl_Rocky_Mountain_Down_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Faceless_Fire_Bubble_Left_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Faceless_Fire_Bubble_Left_ci8[] = {
+Gfx castle_inside_dl_Faceless_Fire_Bubble_Left_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Faceless_Fire_Bubble_Left_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x01, 0x02, 0x03, 0x02, 0x04, 
 	0x04, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 
 	0x01, 0x05, 0x05, 0x05, 0x05, 0x06, 0x06, 0x06, 
@@ -23288,8 +23288,8 @@ u8 castle_inside_dl_Faceless_Fire_Bubble_Left_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Faceless_Fire_Bubble_Left_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Faceless_Fire_Bubble_Left_pal_rgba16[] = {
+Gfx castle_inside_dl_Faceless_Fire_Bubble_Left_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Faceless_Fire_Bubble_Left_pal_ci8_rgba16[] = {
 	0xb0, 0x41, 0xa8, 0x81, 0xd8, 0x81, 0xf0, 0x81, 
 	0xc0, 0x81, 0xa8, 0x41, 0xa0, 0x41, 0xfc, 0x81, 
 	0xfd, 0x81, 0xfc, 0x01, 0xfc, 0x41, 0xfc, 0xc1, 
@@ -23356,8 +23356,8 @@ u8 castle_inside_dl_Faceless_Fire_Bubble_Left_pal_rgba16[] = {
 	0x78, 0x05, 0x08, 0x01, 
 };
 
-Gfx castle_inside_dl_Faceless_Fire_Bubble_Right_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Faceless_Fire_Bubble_Right_ci8[] = {
+Gfx castle_inside_dl_Faceless_Fire_Bubble_Right_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Faceless_Fire_Bubble_Right_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 
 	0x01, 0x01, 0x01, 0x01, 0x02, 0x02, 0x02, 0x02, 
 	0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x02, 0x03, 
@@ -23617,8 +23617,8 @@ u8 castle_inside_dl_Faceless_Fire_Bubble_Right_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Faceless_Fire_Bubble_Right_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Faceless_Fire_Bubble_Right_pal_rgba16[] = {
+Gfx castle_inside_dl_Faceless_Fire_Bubble_Right_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Faceless_Fire_Bubble_Right_pal_ci8_rgba16[] = {
 	0x98, 0x41, 0x98, 0x01, 0x90, 0x01, 0x88, 0x41, 
 	0xa0, 0x41, 0xb8, 0x41, 0x88, 0x01, 0xfc, 0x81, 
 	0xfc, 0x41, 0xfc, 0xc1, 0xfd, 0x01, 0xfc, 0x01, 
@@ -23682,8 +23682,8 @@ u8 castle_inside_dl_Faceless_Fire_Bubble_Right_pal_rgba16[] = {
 	0xfd, 0x81, 0xfe, 0x09, 
 };
 
-Gfx castle_inside_dl_Beatrice_Portrait_Smile_Top_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Beatrice_Portrait_Smile_Top_ci8[] = {
+Gfx castle_inside_dl_Beatrice_Portrait_Smile_Top_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Beatrice_Portrait_Smile_Top_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -23943,8 +23943,8 @@ u8 castle_inside_dl_Beatrice_Portrait_Smile_Top_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Beatrice_Portrait_Smile_Top_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Beatrice_Portrait_Smile_Top_pal_rgba16[] = {
+Gfx castle_inside_dl_Beatrice_Portrait_Smile_Top_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Beatrice_Portrait_Smile_Top_pal_ci8_rgba16[] = {
 	0xa8, 0x81, 0xb0, 0x41, 0xfb, 0xc1, 0xff, 0x01, 
 	0xfc, 0xc1, 0xfd, 0x01, 0xfd, 0x41, 0xfd, 0xc1, 
 	0xfe, 0x41, 0xfe, 0x01, 0xfc, 0x81, 0xfc, 0x41, 
@@ -23985,8 +23985,8 @@ u8 castle_inside_dl_Beatrice_Portrait_Smile_Top_pal_rgba16[] = {
 	0x4a, 0xbf, 
 };
 
-Gfx castle_inside_dl_Beatrice_Portrait_Smile_Bottom_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Beatrice_Portrait_Smile_Bottom_ci8[] = {
+Gfx castle_inside_dl_Beatrice_Portrait_Smile_Bottom_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Beatrice_Portrait_Smile_Bottom_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x06, 
 	0x06, 0x06, 0x06, 0x06, 0x06, 0x06, 0x06, 0x06, 
 	0x06, 0x06, 0x06, 0x07, 0x05, 0x06, 0x06, 0x05, 
@@ -24246,8 +24246,8 @@ u8 castle_inside_dl_Beatrice_Portrait_Smile_Bottom_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Beatrice_Portrait_Smile_Bottom_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Beatrice_Portrait_Smile_Bottom_pal_rgba16[] = {
+Gfx castle_inside_dl_Beatrice_Portrait_Smile_Bottom_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Beatrice_Portrait_Smile_Bottom_pal_ci8_rgba16[] = {
 	0xa8, 0x81, 0xd0, 0xc1, 0xc0, 0x41, 0xf1, 0xc1, 
 	0x08, 0x01, 0x21, 0x09, 0x61, 0x41, 0x39, 0x47, 
 	0x4a, 0x0d, 0x29, 0x4b, 0x7b, 0x13, 0xe5, 0x9d, 
@@ -24290,8 +24290,8 @@ u8 castle_inside_dl_Beatrice_Portrait_Smile_Bottom_pal_rgba16[] = {
 	0xfd, 0x41, 0xfd, 0x01, 0xfe, 0x81, 
 };
 
-Gfx castle_inside_dl_Kali_Portrait_Neutral_Top_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Kali_Portrait_Neutral_Top_ci8[] = {
+Gfx castle_inside_dl_Kali_Portrait_Neutral_Top_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Kali_Portrait_Neutral_Top_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -24551,8 +24551,8 @@ u8 castle_inside_dl_Kali_Portrait_Neutral_Top_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Kali_Portrait_Neutral_Top_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Kali_Portrait_Neutral_Top_pal_rgba16[] = {
+Gfx castle_inside_dl_Kali_Portrait_Neutral_Top_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Kali_Portrait_Neutral_Top_pal_ci8_rgba16[] = {
 	0xa8, 0x81, 0xb0, 0x41, 0xfb, 0xc1, 0xff, 0x01, 
 	0xfc, 0xc1, 0xfd, 0x01, 0xfd, 0x41, 0xfd, 0xc1, 
 	0xfe, 0x41, 0xfe, 0x01, 0xfc, 0x81, 0xfc, 0x41, 
@@ -24578,8 +24578,8 @@ u8 castle_inside_dl_Kali_Portrait_Neutral_Top_pal_rgba16[] = {
 	0xfa, 0x51, 
 };
 
-Gfx castle_inside_dl_Kali_Portrait_Neutral_Bottom_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Kali_Portrait_Neutral_Bottom_ci8[] = {
+Gfx castle_inside_dl_Kali_Portrait_Neutral_Bottom_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Kali_Portrait_Neutral_Bottom_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x05, 0x06, 
 	0x06, 0x06, 0x05, 0x07, 0x07, 0x07, 0x07, 0x07, 
 	0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 
@@ -24839,8 +24839,8 @@ u8 castle_inside_dl_Kali_Portrait_Neutral_Bottom_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Kali_Portrait_Neutral_Bottom_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Kali_Portrait_Neutral_Bottom_pal_rgba16[] = {
+Gfx castle_inside_dl_Kali_Portrait_Neutral_Bottom_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Kali_Portrait_Neutral_Bottom_pal_ci8_rgba16[] = {
 	0xa8, 0x81, 0xc8, 0x81, 0xb8, 0x41, 0xf1, 0xc1, 
 	0x08, 0x01, 0x29, 0x4b, 0x31, 0x8d, 0x21, 0x09, 
 	0x4a, 0x0f, 0xdd, 0x5d, 0xfa, 0x51, 0xfb, 0x81, 
@@ -24876,8 +24876,8 @@ u8 castle_inside_dl_Kali_Portrait_Neutral_Bottom_pal_rgba16[] = {
 	0xfd, 0x01, 0xfe, 0x81, 
 };
 
-Gfx castle_inside_dl_Forest_Left_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Forest_Left_ci8[] = {
+Gfx castle_inside_dl_Forest_Left_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Forest_Left_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x01, 0x02, 0x01, 0x03, 
 	0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 0x04, 
@@ -25137,8 +25137,8 @@ u8 castle_inside_dl_Forest_Left_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Forest_Left_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Forest_Left_pal_rgba16[] = {
+Gfx castle_inside_dl_Forest_Left_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Forest_Left_pal_ci8_rgba16[] = {
 	0x01, 0xc1, 0x02, 0x41, 0x02, 0x81, 0x02, 0x01, 
 	0x01, 0x81, 0x06, 0x87, 0x07, 0x87, 0x06, 0x05, 
 	0x06, 0x47, 0x06, 0xc7, 0x07, 0x07, 0x05, 0x05, 
@@ -28020,8 +28020,8 @@ u8 castle_inside_dl_Box_Interior_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Chest_Lock_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Lock_ci8[] = {
+Gfx castle_inside_dl_Chest_Lock_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Lock_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x02, 0x03, 0x04, 0x05, 0x06, 
 	0x07, 0x08, 0x08, 0x08, 0x08, 0x08, 0x08, 0x08, 
 	0x08, 0x08, 0x09, 0x0a, 0x0b, 0x0b, 0x0c, 0x0d, 
@@ -28153,8 +28153,8 @@ u8 castle_inside_dl_Chest_Lock_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Chest_Lock_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Lock_pal_rgba16[] = {
+Gfx castle_inside_dl_Chest_Lock_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Lock_pal_ci8_rgba16[] = {
 	0x42, 0x11, 0x4a, 0x55, 0x52, 0x55, 0x52, 0x95, 
 	0x52, 0x97, 0x5a, 0x97, 0x5a, 0xd7, 0x62, 0xd9, 
 	0x63, 0x19, 0x63, 0x1b, 0x6b, 0x1b, 0x6b, 0x5d, 
@@ -28184,8 +28184,8 @@ u8 castle_inside_dl_Chest_Lock_pal_rgba16[] = {
 	0x20, 0xcb, 0x18, 0xc9, 
 };
 
-Gfx castle_inside_dl_Chest_Lock_Side_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Lock_Side_ci8[] = {
+Gfx castle_inside_dl_Chest_Lock_Side_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Lock_Side_ci8_rgba16[] = {
 	0x00, 0x01, 0x01, 0x01, 0x02, 0x03, 0x04, 0x05, 
 	0x06, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 0x07, 
 	0x07, 0x07, 0x08, 0x09, 0x0a, 0x0a, 0x0b, 0x0c, 
@@ -28317,8 +28317,8 @@ u8 castle_inside_dl_Chest_Lock_Side_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Chest_Lock_Side_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Lock_Side_pal_rgba16[] = {
+Gfx castle_inside_dl_Chest_Lock_Side_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Lock_Side_pal_ci8_rgba16[] = {
 	0x42, 0x11, 0x52, 0x55, 0x52, 0x95, 0x52, 0x97, 
 	0x5a, 0x97, 0x5a, 0xd7, 0x62, 0xd9, 0x63, 0x19, 
 	0x63, 0x1b, 0x6b, 0x1b, 0x6b, 0x5d, 0x6b, 0x9d, 
@@ -28348,8 +28348,8 @@ u8 castle_inside_dl_Chest_Lock_Side_pal_rgba16[] = {
 	0x18, 0xc9, 0x08, 0x03, 
 };
 
-Gfx castle_inside_dl_Chest_Wood_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Wood_ci8[] = {
+Gfx castle_inside_dl_Chest_Wood_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Wood_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x01, 0x01, 0x02, 0x02, 
 	0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -28481,8 +28481,8 @@ u8 castle_inside_dl_Chest_Wood_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Chest_Wood_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Wood_pal_rgba16[] = {
+Gfx castle_inside_dl_Chest_Wood_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Wood_pal_ci8_rgba16[] = {
 	0x00, 0x01, 0x10, 0x01, 0x18, 0x01, 0x30, 0x41, 
 	0x38, 0x81, 0x40, 0x81, 0x48, 0xc1, 0x59, 0x41, 
 	0x28, 0x01, 0x08, 0x01, 0x18, 0x41, 0x58, 0xc1, 
@@ -28495,8 +28495,8 @@ u8 castle_inside_dl_Chest_Wood_pal_rgba16[] = {
 	0x69, 0x45, 
 };
 
-Gfx castle_inside_dl_Chest_Wood_Barred_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Wood_Barred_ci8[] = {
+Gfx castle_inside_dl_Chest_Wood_Barred_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Wood_Barred_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x01, 0x02, 0x02, 0x02, 0x01, 0x01, 
@@ -28756,8 +28756,8 @@ u8 castle_inside_dl_Chest_Wood_Barred_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Chest_Wood_Barred_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Chest_Wood_Barred_pal_rgba16[] = {
+Gfx castle_inside_dl_Chest_Wood_Barred_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Chest_Wood_Barred_pal_ci8_rgba16[] = {
 	0x00, 0x01, 0x18, 0x01, 0x10, 0x01, 0x08, 0x01, 
 	0x8b, 0xe3, 0x6b, 0x5b, 0x62, 0xd9, 0x4a, 0x13, 
 	0x49, 0xd1, 0x49, 0xd3, 0x5a, 0x57, 0x5a, 0x13, 
@@ -28889,8 +28889,8 @@ u8 castle_inside_dl_Piano_Surface_i8[] = {
 	
 };
 
-Gfx castle_inside_dl_Piano_Innards_ci4_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Innards_ci4[] = {
+Gfx castle_inside_dl_Piano_Innards_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Innards_ci4_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -28926,8 +28926,8 @@ u8 castle_inside_dl_Piano_Innards_ci4[] = {
 	
 };
 
-Gfx castle_inside_dl_Piano_Innards_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Innards_pal_rgba16[] = {
+Gfx castle_inside_dl_Piano_Innards_pal_ci4_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Innards_pal_ci4_rgba16[] = {
 	0x00, 0x01, 0x08, 0x01, 0x18, 0x01, 0x10, 0x01, 
 	0x30, 0x03, 0x38, 0x03, 0x58, 0x05, 0x60, 0x05, 
 	0x88, 0x07, 0x80, 0x07, 0xa0, 0x07, 0xa0, 0x09, 
@@ -28935,8 +28935,8 @@ u8 castle_inside_dl_Piano_Innards_pal_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Piano_Key_Top_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Key_Top_ci8[] = {
+Gfx castle_inside_dl_Piano_Key_Top_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Key_Top_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
@@ -29004,8 +29004,8 @@ u8 castle_inside_dl_Piano_Key_Top_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Piano_Key_Top_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Key_Top_pal_rgba16[] = {
+Gfx castle_inside_dl_Piano_Key_Top_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Key_Top_pal_ci8_rgba16[] = {
 	0x10, 0x85, 0x00, 0x01, 0x62, 0xd9, 0x84, 0x21, 
 	0x8c, 0x63, 0x08, 0x43, 0x18, 0xc7, 0x7c, 0x1f, 
 	0xa5, 0x27, 0x6b, 0x9d, 0x9c, 0xa5, 0x00, 0x43, 
@@ -29043,8 +29043,8 @@ u8 castle_inside_dl_Piano_Key_Top_pal_rgba16[] = {
 	
 };
 
-Gfx castle_inside_dl_Piano_Key_Front_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Key_Front_ci8[] = {
+Gfx castle_inside_dl_Piano_Key_Front_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Key_Front_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x02, 0x03, 0x04, 0x05, 0x06, 
 	0x07, 0x08, 0x09, 0x0a, 0x0b, 0x09, 0x0c, 0x0d, 
 	0x0e, 0x0a, 0x04, 0x03, 0x0f, 0x0a, 0x10, 0x11, 
@@ -29112,8 +29112,8 @@ u8 castle_inside_dl_Piano_Key_Front_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Piano_Key_Front_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Key_Front_pal_rgba16[] = {
+Gfx castle_inside_dl_Piano_Key_Front_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Key_Front_pal_ci8_rgba16[] = {
 	0x8c, 0x1d, 0xc6, 0x6f, 0xde, 0xb5, 0xb5, 0xab, 
 	0xa4, 0xe7, 0xde, 0x73, 0xde, 0xf5, 0xd6, 0xf5, 
 	0x9c, 0xe7, 0xc6, 0x31, 0xde, 0xf7, 0xde, 0xb7, 
@@ -29134,8 +29134,8 @@ u8 castle_inside_dl_Piano_Key_Front_pal_rgba16[] = {
 	0x10, 0xc5, 0x10, 0xc7, 0x10, 0x85, 
 };
 
-Gfx castle_inside_dl_Piano_Key_Side_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Key_Side_ci8[] = {
+Gfx castle_inside_dl_Piano_Key_Side_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Key_Side_ci8_rgba16[] = {
 	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 
 	0x02, 0x04, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 
 	0x0d, 0x0d, 0x0d, 0x0d, 0x0d, 0x0e, 0x0f, 0x0f, 
@@ -29203,8 +29203,8 @@ u8 castle_inside_dl_Piano_Key_Side_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Piano_Key_Side_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Piano_Key_Side_pal_rgba16[] = {
+Gfx castle_inside_dl_Piano_Key_Side_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Piano_Key_Side_pal_ci8_rgba16[] = {
 	0xd6, 0xf1, 0xde, 0xb1, 0xbe, 0x75, 0xd6, 0x33, 
 	0xce, 0x6f, 0xd5, 0xef, 0xbd, 0xf5, 0xce, 0xaf, 
 	0xbd, 0xef, 0xc6, 0xaf, 0xd5, 0xb3, 0xd6, 0x2d, 
@@ -29222,8 +29222,8 @@ u8 castle_inside_dl_Piano_Key_Side_pal_rgba16[] = {
 	0x31, 0xcf, 
 };
 
-Gfx castle_inside_dl_Wall_Sign_ci8_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wall_Sign_ci8[] = {
+Gfx castle_inside_dl_Wall_Sign_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wall_Sign_ci8_rgba16[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x01, 0x01, 0x01, 0x01, 0x01, 0x01, 
@@ -29355,8 +29355,8 @@ u8 castle_inside_dl_Wall_Sign_ci8[] = {
 	
 };
 
-Gfx castle_inside_dl_Wall_Sign_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
-u8 castle_inside_dl_Wall_Sign_pal_rgba16[] = {
+Gfx castle_inside_dl_Wall_Sign_pal_ci8_rgba16_aligner[] = {gsSPEndDisplayList()};
+u8 castle_inside_dl_Wall_Sign_pal_ci8_rgba16[] = {
 	0x51, 0xc8, 0x51, 0xca, 0x61, 0x88, 0xd9, 0x47, 
 	0xf9, 0x89, 0x89, 0xc8, 0x70, 0xc5, 0xe9, 0x47, 
 	0xfc, 0xa5, 0xe9, 0x89, 0x5a, 0x0a, 0x5a, 0x4f, 
@@ -51566,10 +51566,10 @@ Gfx mat_castle_inside_dl_Banners_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Blue_Streamer_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Blue_Streamer_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 10),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Blue_Streamer_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Blue_Streamer_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -51595,10 +51595,10 @@ Gfx mat_castle_inside_dl_Foliage_f3d[] = {
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 8),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -51624,10 +51624,10 @@ Gfx mat_castle_inside_dl_Foliage_Flowers_f3d[] = {
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_Flowers_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_Flowers_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 12),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_Flowers_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Foliage_Flowers_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -51651,10 +51651,10 @@ Gfx mat_castle_inside_dl_Carpet_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 3),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -51740,10 +51740,10 @@ Gfx mat_castle_inside_dl_Moody_Melody_Bay_Left_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_JP_Jolly_Roger_Bay_Left_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_JP_Jolly_Roger_Bay_Left_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 245),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_JP_Jolly_Roger_Bay_Left_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_JP_Jolly_Roger_Bay_Left_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -51934,10 +51934,10 @@ Gfx mat_castle_inside_dl_Ceiling_Stars_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 12),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -51960,10 +51960,10 @@ Gfx mat_castle_inside_dl_Beige_Wall_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Castle_Wall_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Castle_Wall_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 10),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Castle_Wall_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Castle_Wall_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -52028,10 +52028,10 @@ Gfx mat_castle_inside_dl_Gray_Cobblestones_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Gray_Cobblestones_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Gray_Cobblestones_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 44),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Gray_Cobblestones_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Gray_Cobblestones_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52056,10 +52056,10 @@ Gfx mat_castle_inside_dl_Sun_Carpet_f3d[] = {
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Sun_Carpet_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Sun_Carpet_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 106),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Sun_Carpet_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Sun_Carpet_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52083,10 +52083,10 @@ Gfx mat_castle_inside_dl_Moon_Carpet_f3d[] = {
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Moon_Carpet_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Moon_Carpet_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 15),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Moon_Carpet_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Moon_Carpet_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52110,10 +52110,10 @@ Gfx mat_castle_inside_dl_Beta_Brick_Wall_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_B_Roll_Bricks_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_B_Roll_Bricks_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 58),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_B_Roll_Bricks_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_B_Roll_Bricks_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52178,10 +52178,10 @@ Gfx mat_castle_inside_dl_Wood_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wood_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wood_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 53),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Wood_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Wood_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52204,10 +52204,10 @@ Gfx mat_castle_inside_dl_Cabinet_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Cabinet_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Cabinet_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 162),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Cabinet_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Cabinet_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52441,10 +52441,10 @@ Gfx mat_castle_inside_dl_Bookshelf_Side_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bookshelf_Side_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bookshelf_Side_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 74),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Bookshelf_Side_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Bookshelf_Side_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52488,10 +52488,10 @@ Gfx mat_castle_inside_dl_Bookshelf_Cans_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bookshelf_Cans_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bookshelf_Cans_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 127),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Bookshelf_Cans_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Bookshelf_Cans_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52556,10 +52556,10 @@ Gfx mat_castle_inside_dl_Books_Red_And_Blue_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Red_And_Blue_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Red_And_Blue_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 13),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Red_And_Blue_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Red_And_Blue_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -52582,10 +52582,10 @@ Gfx mat_castle_inside_dl_Books_Top_Red_And_Blue_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Red_And_Blue_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Red_And_Blue_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 5),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Red_And_Blue_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Red_And_Blue_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -52608,10 +52608,10 @@ Gfx mat_castle_inside_dl_Books_Bottom_Red_And_Blue[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Red_And_Blue_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Red_And_Blue_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 8),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Red_And_Blue_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Red_And_Blue_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -52634,10 +52634,10 @@ Gfx mat_castle_inside_dl_Books_Side_Red_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Red_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Red_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 2),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Red_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Red_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52660,10 +52660,10 @@ Gfx mat_castle_inside_dl_Books_Side_Blue_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Blue_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Blue_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 2),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Blue_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Blue_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52686,10 +52686,10 @@ Gfx mat_castle_inside_dl_Books_Pink_And_Green_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Pink_And_Green_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Pink_And_Green_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 17),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Books_Pink_And_Green_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Books_Pink_And_Green_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -52712,10 +52712,10 @@ Gfx mat_castle_inside_dl_Books_Top_Pink_And_Green_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Pink_And_Green_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Pink_And_Green_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 5),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Pink_And_Green_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Top_Pink_And_Green_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -52738,10 +52738,10 @@ Gfx mat_castle_inside_dl_Books_Bottom_Pink_And_Green_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Pink_And_Green_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Pink_And_Green_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 8),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Pink_And_Green_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Bottom_Pink_And_Green_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -52764,10 +52764,10 @@ Gfx mat_castle_inside_dl_Books_Side_Pink_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Pink_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Pink_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 2),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Pink_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Pink_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52790,10 +52790,10 @@ Gfx mat_castle_inside_dl_Books_Side_Green_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Green_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Green_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 2),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Green_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Books_Side_Green_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52834,10 +52834,10 @@ Gfx mat_castle_inside_dl_Glass_f3d[] = {
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 64),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bridge_Stones_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bridge_Stones_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 119),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Bridge_Stones_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Bridge_Stones_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52861,10 +52861,10 @@ Gfx mat_castle_inside_dl_Sand_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Sand_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Sand_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 40),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Sand_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Sand_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -52967,10 +52967,10 @@ Gfx mat_castle_inside_dl_Kelp_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Kelp_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Kelp_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 73),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Kelp_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Kelp_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53078,10 +53078,10 @@ Gfx mat_castle_inside_dl_Ceiling_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Sky_NIGHT_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Sky_NIGHT_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 72),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Wallpaper_Sky_NIGHT_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Wallpaper_Sky_NIGHT_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53104,10 +53104,10 @@ Gfx mat_castle_inside_dl_Ceiling_Stars_f3d_001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 12),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Wallpaper_Ceiling_STARS_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53178,10 +53178,10 @@ Gfx mat_castle_inside_dl_Fence_f3d[] = {
 	gsDPSetTextureFilter(G_TF_POINT),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Fence_Railing_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Fence_Railing_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 117),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Fence_Railing_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Fence_Railing_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53206,10 +53206,10 @@ Gfx mat_castle_inside_dl_Dirt_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Dark_Gray_Stones_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Dark_Gray_Stones_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 10),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Dark_Gray_Stones_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Dark_Gray_Stones_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53233,10 +53233,10 @@ Gfx mat_castle_inside_dl_Bowl_f3d_001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 5),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53261,10 +53261,10 @@ Gfx mat_castle_inside_dl_Bowl_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 5),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Bowl_Vertex_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53289,10 +53289,10 @@ Gfx mat_castle_inside_dl_Pot_f3d_001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Rusty_Pot_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Rusty_Pot_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 167),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Rusty_Pot_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Rusty_Pot_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -53317,10 +53317,10 @@ Gfx mat_castle_inside_dl_Window_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_PM_Window_Long_NIGHT_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_PM_Window_Long_NIGHT_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 8),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_PM_Window_Long_NIGHT_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_PM_Window_Long_NIGHT_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 7, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -53345,10 +53345,10 @@ Gfx mat_castle_inside_dl_Mushroom_Logo__Gold__f3d_001[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Mushroom_Logo_GOLD_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Mushroom_Logo_GOLD_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 4),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Mushroom_Logo_GOLD_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Mushroom_Logo_GOLD_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53374,10 +53374,10 @@ Gfx mat_castle_inside_dl_Candelabra_f3d[] = {
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Candelabra_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Candelabra_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 7),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Candelabra_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Candelabra_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 127, 2048),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 1, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0),
@@ -53401,10 +53401,10 @@ Gfx mat_castle_inside_dl_Big_Small_Beach_Left_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Big_Small_Beach_Left_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Big_Small_Beach_Left_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 191),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Big_Small_Beach_Left_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Big_Small_Beach_Left_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53427,10 +53427,10 @@ Gfx mat_castle_inside_dl_Big_Small_Beach_Right_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Big_Small_Beach_Right_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Big_Small_Beach_Right_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 205),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Big_Small_Beach_Right_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Big_Small_Beach_Right_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53453,10 +53453,10 @@ Gfx mat_castle_inside_dl_Sky_High_Plateau_Left_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Tall_Tall_Mountain_Left_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Tall_Tall_Mountain_Left_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 241),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Tall_Tall_Mountain_Left_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Tall_Tall_Mountain_Left_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53543,10 +53543,10 @@ Gfx mat_castle_inside_dl_Pitcher_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Pitcher_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Pitcher_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 6),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Pitcher_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Pitcher_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53571,10 +53571,10 @@ Gfx mat_castle_inside_dl_Teacup_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Teacup_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Teacup_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 6),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Teacup_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Teacup_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 63, 2048),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 1, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -53599,10 +53599,10 @@ Gfx mat_castle_inside_dl_Soup_Bowl_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Soup_Bowl_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Soup_Bowl_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 6),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Soup_Bowl_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Soup_Bowl_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53710,10 +53710,10 @@ Gfx mat_castle_inside_dl_Cabinet_Fancy_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Cabinet_Fancy_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Cabinet_Fancy_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 5),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Cabinet_Fancy_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Cabinet_Fancy_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -53752,10 +53752,10 @@ Gfx mat_castle_inside_dl_Tablecloth_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_Pink_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_Pink_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 3),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_Pink_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Carpet_Pink_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 1024),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 2, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53778,10 +53778,10 @@ Gfx mat_castle_inside_dl_Cake_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chocolate_Cake_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chocolate_Cake_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 2),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Chocolate_Cake_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Chocolate_Cake_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 63, 2048),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 1, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -53861,10 +53861,10 @@ Gfx mat_castle_inside_dl_Grated_Fence[] = {
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Grate_Fence_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Grate_Fence_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 54),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Grate_Fence_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Grate_Fence_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -53888,10 +53888,10 @@ Gfx mat_castle_inside_dl_Ornate_Stone_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Ornate_Stone_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Ornate_Stone_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 90),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Ornate_Stone_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Ornate_Stone_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54040,10 +54040,10 @@ Gfx mat_castle_inside_dl_Faceless_Fire_Bubble_Left_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Faceless_Fire_Bubble_Left_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Faceless_Fire_Bubble_Left_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 253),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Faceless_Fire_Bubble_Left_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Faceless_Fire_Bubble_Left_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -54066,10 +54066,10 @@ Gfx mat_castle_inside_dl_Faceless_Fire_Bubble_Right_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Faceless_Fire_Bubble_Right_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Faceless_Fire_Bubble_Right_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 241),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Faceless_Fire_Bubble_Right_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Faceless_Fire_Bubble_Right_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
@@ -54092,10 +54092,10 @@ Gfx mat_castle_inside_dl_Beatrice_Smile_Up_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Beatrice_Portrait_Smile_Top_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Beatrice_Portrait_Smile_Top_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 148),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Beatrice_Portrait_Smile_Top_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Beatrice_Portrait_Smile_Top_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 256),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -54118,10 +54118,10 @@ Gfx mat_castle_inside_dl_Beatrice_Smile_Down_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Beatrice_Portrait_Smile_Bottom_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Beatrice_Portrait_Smile_Bottom_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 158),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Beatrice_Portrait_Smile_Bottom_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Beatrice_Portrait_Smile_Bottom_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 256),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -54144,10 +54144,10 @@ Gfx mat_castle_inside_dl_Kali_Neutral_Up_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Kali_Portrait_Neutral_Top_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Kali_Portrait_Neutral_Top_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 88),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Kali_Portrait_Neutral_Top_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Kali_Portrait_Neutral_Top_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 256),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -54170,10 +54170,10 @@ Gfx mat_castle_inside_dl_Kali_Neutral_Down_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Kali_Portrait_Neutral_Bottom_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Kali_Portrait_Neutral_Bottom_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 129),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Kali_Portrait_Neutral_Bottom_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Kali_Portrait_Neutral_Bottom_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 256),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -54196,10 +54196,10 @@ Gfx mat_castle_inside_dl_Forest_Left_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Forest_Left_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Forest_Left_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 129),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Forest_Left_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Forest_Left_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54411,10 +54411,10 @@ Gfx mat_castle_inside_dl_Lock_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Lock_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Lock_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 105),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Lock_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Lock_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54437,10 +54437,10 @@ Gfx mat_castle_inside_dl_Lock_Side_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Lock_Side_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Lock_Side_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 105),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Lock_Side_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Lock_Side_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54463,10 +54463,10 @@ Gfx mat_castle_inside_dl_Chest_Wood_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Wood_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Wood_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 36),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Wood_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Wood_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54489,10 +54489,10 @@ Gfx mat_castle_inside_dl_Chest_Bars_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Wood_Barred_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Chest_Wood_Barred_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 235),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Wood_Barred_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Chest_Wood_Barred_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 1023, 256),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 8, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
@@ -54538,10 +54538,10 @@ Gfx mat_castle_inside_dl_Piano_Innards_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Innards_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Innards_pal_ci4_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 15),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Innards_ci4),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Innards_ci4_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_16b, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 127, 2048),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 1, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0),
@@ -54564,10 +54564,10 @@ Gfx mat_castle_inside_dl_Piano_Key_Top_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Key_Top_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Key_Top_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 135),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Piano_Key_Top_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Piano_Key_Top_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54590,10 +54590,10 @@ Gfx mat_castle_inside_dl_Piano_Key_Front_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Key_Front_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Key_Front_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 70),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Piano_Key_Front_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Piano_Key_Front_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54616,10 +54616,10 @@ Gfx mat_castle_inside_dl_Piano_Key_Side_f3d[] = {
 	gsDPSetAlphaDither(G_AD_NOISE),
 	gsDPSetTextureLUT(G_TT_RGBA16),
 	gsSPTexture(65535, 65535, 0, 0, 1),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Key_Side_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Piano_Key_Side_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 56),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Piano_Key_Side_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Piano_Key_Side_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 255, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
@@ -54648,10 +54648,10 @@ Gfx mat_castle_inside_dl_Wall_Sign_layer5_area2[] = {
 	gsDPSetRenderMode(G_RM_FOG_SHADE_A, G_RM_AA_ZB_XLU_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
-	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wall_Sign_pal_rgba16),
+	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, castle_inside_dl_Wall_Sign_pal_ci8_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadTLUTCmd(5, 171),
-	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Wall_Sign_ci8),
+	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, castle_inside_dl_Wall_Sign_ci8_rgba16),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
